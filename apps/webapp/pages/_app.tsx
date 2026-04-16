@@ -255,7 +255,7 @@ function DataProviders({ children }: { children: ReactNode }) {
 function PageHead({ openGraphData }: { openGraphData?: OpenGraphProps }) {
   const [title] = usePageTitle();
   const prefix = isDevEnv ? 'DEV |' : '';
-  const titleString = `${prefix} ${title || `CharmVerse - The Network for Onchain Communities`}`;
+  const titleString = `${prefix} ${title || `KFMEDIA Learning Center - Education for Impact`}`;
 
   return (
     <Head>
