@@ -1,9 +1,8 @@
 /* eslint-disable max-len */
-import type { Page } from '@charmverse/core/prisma';
-import { styled } from '@mui/material';
+import type { Page } from '@KFMEDIA/core/prisma';
 import VisibilityOffOutlinedIcon from '@mui/icons-material/VisibilityOffOutlined';
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
-import { Box } from '@mui/material';
+import { styled, Box } from '@mui/material';
 import type { PageContent } from '@packages/charmeditor/interfaces';
 import type { Board } from '@packages/databases/board';
 import mutator from '@packages/databases/mutator';

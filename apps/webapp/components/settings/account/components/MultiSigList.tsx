@@ -1,9 +1,9 @@
-import type { UserGnosisSafe } from '@charmverse/core/prisma';
-import { styled } from '@mui/material';
+import type { UserGnosisSafe } from '@KFMEDIA/core/prisma';
 import KeyIcon from '@mui/icons-material/Key';
 import VisibilityOffOutlinedIcon from '@mui/icons-material/VisibilityOffOutlined';
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import {
+  styled,
   Box,
   CircularProgress,
   IconButton,

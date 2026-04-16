@@ -1,6 +1,11 @@
-import { ProposalSystemRole } from '@charmverse/core/prisma';
-import { type BountyStatus } from '@charmverse/core/prisma-client';
+import { ProposalSystemRole } from '@KFMEDIA/core/prisma';
+import { type BountyStatus } from '@KFMEDIA/core/prisma-client';
 import { Box, Collapse, Divider, Stack } from '@mui/material';
+import type { RewardPropertiesField } from '@packages/lib/rewards/blocks/interfaces';
+import type { RewardCreationData } from '@packages/lib/rewards/createReward';
+import type { RewardTemplate } from '@packages/lib/rewards/getRewardTemplate';
+import type { Reward, RewardTokenDetails, RewardType, RewardWithUsers } from '@packages/lib/rewards/interfaces';
+import type { UpdateableRewardFields } from '@packages/lib/rewards/updateRewardSettings';
 import { isTruthy } from '@packages/utils/types';
 import clsx from 'clsx';
 import { DateTime } from 'luxon';
@@ -23,11 +28,6 @@ import { useRewardTemplates } from 'components/rewards/hooks/useRewardTemplates'
 import { allReviewersSystemRole } from 'components/settings/proposals/components/EvaluationPermissions';
 import { useIsAdmin } from 'hooks/useIsAdmin';
 import { useSpaceFeatures } from 'hooks/useSpaceFeatures';
-import type { RewardPropertiesField } from '@packages/lib/rewards/blocks/interfaces';
-import type { RewardCreationData } from '@packages/lib/rewards/createReward';
-import type { RewardTemplate } from '@packages/lib/rewards/getRewardTemplate';
-import type { Reward, RewardTokenDetails, RewardType, RewardWithUsers } from '@packages/lib/rewards/interfaces';
-import type { UpdateableRewardFields } from '@packages/lib/rewards/updateRewardSettings';
 
 type Props = {
   onChange: (values: Partial<UpdateableRewardFieldsWithType>) => void;

@@ -1,5 +1,5 @@
-import type { Application } from '@charmverse/core/prisma';
 import { yupResolver } from '@hookform/resolvers/yup';
+import type { Application } from '@KFMEDIA/core/prisma';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import { Box, Collapse, FormLabel, IconButton, Stack } from '@mui/material';

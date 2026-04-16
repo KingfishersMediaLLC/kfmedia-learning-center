@@ -1,8 +1,7 @@
-import type { IdentityType } from '@charmverse/core/prisma';
-import { styled } from '@mui/material';
+import type { IdentityType } from '@KFMEDIA/core/prisma';
 import CheckIcon from '@mui/icons-material/Check';
 import MoreHoriz from '@mui/icons-material/MoreHoriz';
-import { Box, Chip, Divider, IconButton, Menu, Stack, Tooltip, Typography } from '@mui/material';
+import { styled, Box, Chip, Divider, IconButton, Menu, Stack, Tooltip, Typography } from '@mui/material';
 import { bindMenu, bindTrigger, usePopupState } from 'material-ui-popup-state/hooks';
 import type { ReactNode } from 'react';
 

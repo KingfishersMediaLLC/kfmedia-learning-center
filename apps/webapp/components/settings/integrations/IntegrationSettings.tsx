@@ -1,4 +1,4 @@
-import type { Space } from '@charmverse/core/prisma-client';
+import type { Space } from '@KFMEDIA/core/prisma-client';
 
 import { useTrackPageView } from 'charmClient/hooks/track';
 import Legend from 'components/settings/components/Legend';

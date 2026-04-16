@@ -1,4 +1,7 @@
-import type { ProposalReviewer } from '@charmverse/core/prisma-client';
+import type { ProposalReviewer } from '@KFMEDIA/core/prisma-client';
+import type { ProposalPendingReward } from '@packages/lib/proposals/interfaces';
+import { getRewardErrors } from '@packages/lib/rewards/getRewardErrors';
+import type { RewardTemplate } from '@packages/lib/rewards/getRewardTemplate';
 import { uniqBy } from 'lodash';
 import { useMemo, useState } from 'react';
 import { v4 } from 'uuid';
@@ -6,9 +9,6 @@ import { v4 } from 'uuid';
 import { useNewPage } from 'components/common/PageDialog/hooks/useNewPage';
 import { useNewReward } from 'components/rewards/hooks/useNewReward';
 import { useRewardTemplates } from 'components/rewards/hooks/useRewardTemplates';
-import type { ProposalPendingReward } from '@packages/lib/proposals/interfaces';
-import { getRewardErrors } from '@packages/lib/rewards/getRewardErrors';
-import type { RewardTemplate } from '@packages/lib/rewards/getRewardTemplate';
 
 export function useProposalRewards({
   isProposalTemplate,

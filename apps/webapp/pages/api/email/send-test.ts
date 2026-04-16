@@ -1,4 +1,4 @@
-import { prisma } from '@charmverse/core/prisma-client';
+import { prisma } from '@KFMEDIA/core/prisma-client';
 import { charmBlue as blueColor } from '@packages/config/colors';
 import { InvalidInputError, UnauthorisedActionError } from '@packages/core/errors';
 import type { FeatureJson } from '@packages/features/constants';

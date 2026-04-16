@@ -1,4 +1,4 @@
-import type { Page, PageType } from '@charmverse/core/prisma';
+import type { Page, PageType } from '@KFMEDIA/core/prisma';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import { styled } from '@mui/material';

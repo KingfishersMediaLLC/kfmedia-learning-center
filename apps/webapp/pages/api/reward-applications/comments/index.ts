@@ -1,6 +1,6 @@
-import type { ApplicationComment } from '@charmverse/core/prisma';
-import { Prisma } from '@charmverse/core/prisma';
-import { prisma } from '@charmverse/core/prisma-client';
+import type { ApplicationComment } from '@KFMEDIA/core/prisma';
+import { Prisma } from '@KFMEDIA/core/prisma';
+import { prisma } from '@KFMEDIA/core/prisma-client';
 import type { PageContent } from '@packages/charmeditor/interfaces';
 import { InvalidInputError } from '@packages/core/errors';
 import { hasAccessToSpace } from '@packages/core/permissions';

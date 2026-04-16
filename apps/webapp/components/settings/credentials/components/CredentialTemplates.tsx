@@ -1,4 +1,4 @@
-import type { AttestationType, CredentialTemplate } from '@charmverse/core/prisma-client';
+import type { AttestationType, CredentialTemplate } from '@KFMEDIA/core/prisma-client';
 import { Box, Tooltip } from '@mui/material';
 import Stack from '@mui/material/Stack';
 import { capitalize } from '@packages/utils/strings';

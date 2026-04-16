@@ -1,8 +1,7 @@
-import type { IdentityType, UserDetails as UserDetailsType } from '@charmverse/core/prisma';
-import { styled } from '@mui/material';
+import type { IdentityType, UserDetails as UserDetailsType } from '@KFMEDIA/core/prisma';
 import EditIcon from '@mui/icons-material/Edit';
 import type { SxProps, Theme } from '@mui/material';
-import { Box, Stack, Typography } from '@mui/material';
+import { styled, Box, Stack, Typography } from '@mui/material';
 import type { IconButtonProps } from '@mui/material/IconButton';
 import IconButton from '@mui/material/IconButton';
 import type { Social } from '@packages/lib/members/interfaces';

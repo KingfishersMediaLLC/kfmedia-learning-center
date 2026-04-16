@@ -1,4 +1,4 @@
-import { prisma } from '@charmverse/core/prisma-client';
+import { prisma } from '@KFMEDIA/core/prisma-client';
 import { generateMarkdown } from '@packages/bangleeditor/markdown/generateMarkdown';
 import { parseMarkdown } from '@packages/bangleeditor/markdown/parseMarkdown';
 import { UnauthorisedActionError } from '@packages/core/errors';
@@ -49,7 +49,7 @@ handler.post(requireSuperApiKey, requireKeys(['userId', 'contentMarkdown', 'titl
  *          type: string
  *        url:
  *          type: string
- *          example: https://app.charmverse.io/<your-domain>/forum/post/<post-path>
+ *          example: https://app.KFMEDIA.io/<your-domain>/forum/post/<post-path>
  *        category:
  *          type: object
  *          properties:

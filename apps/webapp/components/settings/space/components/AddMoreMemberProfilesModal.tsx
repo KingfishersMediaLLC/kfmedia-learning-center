@@ -57,8 +57,8 @@ export function AddMoreMemberProfilesModal({
 
 export function getProfileWidgetLogo(name: MemberProfileName) {
   switch (name) {
-    case 'charmverse':
-      return '/images/logos/charmverse_black.png';
+    case 'KFMEDIA':
+      return '/images/logos/KFMEDIA_black.png';
     case 'collection':
       return '/images/template_icons/nft_ape_icon.svg';
     case 'ens':

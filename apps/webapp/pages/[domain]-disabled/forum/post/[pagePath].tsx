@@ -1,3 +1,4 @@
+import type { PostWithVotes } from '@packages/lib/forums/posts/interfaces';
 import { useState } from 'react';
 
 import { useTrackOpPageView, useTrackPageView } from 'charmClient/hooks/track';
@@ -7,7 +8,6 @@ import type { FormInputs } from 'components/forum/components/interfaces';
 import { PostPage } from 'components/forum/components/PostPage/PostPage';
 import { usePostByPath } from 'components/forum/hooks/usePostByPath';
 import { usePageTitle } from 'hooks/usePageTitle';
-import type { PostWithVotes } from '@packages/lib/forums/posts/interfaces';
 
 export default function ForumPostPage() {
   const forumPostInfo = usePostByPath();

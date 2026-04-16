@@ -73,8 +73,8 @@ export function OnboardingEmailForm({ onClick, spaceId }: { onClick: VoidFunctio
     <form onSubmit={handleSubmit(onSubmit)}>
       <Stack gap={2}>
         <Typography>
-          CharmVerse can use your email address to let you know when there is a conversation or activity you should be
-          part of.
+          KFMEDIA can use your email address to let you know when there is a conversation or activity you should be part
+          of.
         </Typography>
         <TextField
           {...register('email')}
@@ -99,7 +99,7 @@ export function OnboardingEmailForm({ onClick, spaceId }: { onClick: VoidFunctio
           />
           <FormControlLabel
             control={<Checkbox {...register('emailNewsletter')} checked={emailNewsletter} onChange={onChange} />}
-            label='Receive tips and examples how to use CharmVerse.'
+            label='Receive tips and examples how to use KFMEDIA.'
           />
           <Button
             variant='outlined'
@@ -124,7 +124,7 @@ export function OnboardingEmailForm({ onClick, spaceId }: { onClick: VoidFunctio
             label={
               <Typography>
                 I agree to the{' '}
-                <Link target='_blank' external href='https://www.charmverse.io/terms'>
+                <Link target='_blank' external href='https://www.KFMEDIA.io/terms'>
                   Terms & Conditions
                 </Link>
               </Typography>

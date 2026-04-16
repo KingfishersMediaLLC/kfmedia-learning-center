@@ -1,5 +1,5 @@
-import type { AttestationType, CredentialEventType, CredentialTemplate } from '@charmverse/core/prisma-client';
 import { yupResolver } from '@hookform/resolvers/yup';
+import type { AttestationType, CredentialEventType, CredentialTemplate } from '@KFMEDIA/core/prisma-client';
 import { InputLabel } from '@mui/material';
 import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';

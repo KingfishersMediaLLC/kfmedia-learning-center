@@ -58,7 +58,7 @@ export function EmailAddressForm({ email = '', handleSubmit: onSubmit, descripti
         )}
         <TextField
           {...register('email')}
-          placeholder='email@charmverse.io'
+          placeholder='email@KFMEDIA.io'
           error={isSubmitted && !!errors.email}
           helperText={isSubmitted && !!errors.email && 'Email is invalid'}
           type='text'

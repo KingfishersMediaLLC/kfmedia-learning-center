@@ -1,5 +1,5 @@
-import type { Prisma } from '@charmverse/core/prisma';
-import { prisma } from '@charmverse/core/prisma-client';
+import type { Prisma } from '@KFMEDIA/core/prisma';
+import { prisma } from '@KFMEDIA/core/prisma-client';
 import { log } from '@packages/core/log';
 import { copyAllPagePermissions } from '@packages/core/permissions';
 import type { BlockWithDetails } from '@packages/databases/block';

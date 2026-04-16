@@ -1,8 +1,9 @@
-import type { PageType } from '@charmverse/core/prisma';
+import type { PageType } from '@KFMEDIA/core/prisma';
 import { EditOutlined } from '@mui/icons-material';
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 import LaunchIcon from '@mui/icons-material/Launch';
 import { Divider, ListItemIcon, ListItemText, Menu, MenuItem, Stack, Typography } from '@mui/material';
+import { getAbsolutePath } from '@packages/lib/utils/browser';
 import { useRouter } from 'next/router';
 import type { Dispatch, ReactNode, SetStateAction } from 'react';
 
@@ -10,7 +11,6 @@ import { useDateFormatter } from 'hooks/useDateFormatter';
 import { useMembers } from 'hooks/useMembers';
 import { usePagePermissions } from 'hooks/usePagePermissions';
 import { usePostPermissions } from 'hooks/usePostPermissions';
-import { getAbsolutePath } from '@packages/lib/utils/browser';
 
 import { ArchiveProposalAction } from './ArchiveProposalAction';
 import { CopyPageLinkAction } from './CopyPageLinkAction';

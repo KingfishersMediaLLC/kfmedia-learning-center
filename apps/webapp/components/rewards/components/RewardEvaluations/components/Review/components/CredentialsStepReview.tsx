@@ -1,10 +1,10 @@
-import type { CredentialTemplate } from '@charmverse/core/prisma-client';
+import type { CredentialTemplate } from '@KFMEDIA/core/prisma-client';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import type { ApplicationWithTransactions } from '@packages/lib/rewards/interfaces';
 
 import { useGetCredentialTemplates } from 'charmClient/hooks/credentials';
 import { CredentialReviewStep } from 'components/common/WorkflowSidebar/components/CredentialReviewStep/CredentialReviewStep';
-import type { ApplicationWithTransactions } from '@packages/lib/rewards/interfaces';
 
 export type UserCredentialRowProps = {
   credential: { title: string; subtitle: string; iconUrl: string };

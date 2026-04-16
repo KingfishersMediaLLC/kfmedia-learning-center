@@ -4,7 +4,7 @@ import { bindMenu } from 'material-ui-popup-state';
 import type { PopupState } from 'material-ui-popup-state/hooks';
 import { useState } from 'react';
 
-import { LinkCharmVerseDatabase } from '../../../viewSidebar/viewSourceOptions/components/LinkCharmVerseDatabase';
+import { LinkKFMEDIADatabase } from '../../../viewSidebar/viewSourceOptions/components/LinkKFMEDIADatabase';
 
 import { RelationPropertyCreateOptions } from './RelationPropertyOptions';
 
@@ -46,7 +46,7 @@ export function RelationPropertyMenu({
       onClose={onClose}
     >
       {showSelectDatabaseMenu ? (
-        <LinkCharmVerseDatabase
+        <LinkKFMEDIADatabase
           placeholder='Link to a database'
           onSelectLinkedDatabase={({ pageId, pageTitle = 'Untitled' }) => {
             setRelationPropertyData(

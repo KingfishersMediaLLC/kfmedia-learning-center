@@ -9,8 +9,8 @@ export type OpenGraphProps = {
 
 const defaults = {
   description: 'The Network for Onchain Communities. Manage grants. Connect with builders. Forge new ideas.',
-  title: 'CharmVerse',
-  image: 'https://app.charmverse.io/images/logo_black_lightgrey_opengraph.png'
+  title: 'KFMEDIA',
+  image: 'https://app.KFMEDIA.io/images/logo_black_lightgrey_opengraph.png'
 };
 
 export function OpenGraphData({ description, title, image, canonicalUrl }: OpenGraphProps) {

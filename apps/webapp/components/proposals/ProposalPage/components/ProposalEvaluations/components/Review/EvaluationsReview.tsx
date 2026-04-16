@@ -372,7 +372,7 @@ export function EvaluationsReview({
             pageId={pageId}
             lensPostLink={pageLensPostLink}
             onPublish={refreshProposal}
-            text={`${shareText}\nView on CharmVerse:\n`}
+            text={`${shareText}\nView on KFMEDIA:\n`}
             content={{
               type: 'doc',
               content: [
@@ -399,7 +399,7 @@ export function EvaluationsReview({
                   content: [
                     {
                       type: 'text',
-                      text: `View on CharmVerse `
+                      text: `View on KFMEDIA `
                     },
                     {
                       type: 'text',
@@ -407,7 +407,7 @@ export function EvaluationsReview({
                         {
                           type: 'link',
                           attrs: {
-                            href: `https://app.charmverse.io/${currentSpace?.domain}/${pagePath}`
+                            href: `https://app.KFMEDIA.io/${currentSpace?.domain}/${pagePath}`
                           }
                         }
                       ],

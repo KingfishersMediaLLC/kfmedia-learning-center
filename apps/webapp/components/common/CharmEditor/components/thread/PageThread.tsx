@@ -1,4 +1,4 @@
-import type { Comment } from '@charmverse/core/prisma-client';
+import type { Comment } from '@KFMEDIA/core/prisma-client';
 import { Check } from '@mui/icons-material';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 import EditIcon from '@mui/icons-material/Edit';

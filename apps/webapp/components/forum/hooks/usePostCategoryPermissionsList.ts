@@ -1,4 +1,4 @@
-import type { PostCategoryPermissionLevel } from '@charmverse/core/prisma-client';
+import type { PostCategoryPermissionLevel } from '@KFMEDIA/core/prisma-client';
 import type { PostCategoryPermissionAssignment } from '@packages/core/permissions';
 import useSWR from 'swr';
 

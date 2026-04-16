@@ -1,6 +1,10 @@
-import type { PageType } from '@charmverse/core/prisma';
+import type { PageType } from '@KFMEDIA/core/prisma';
 import { Box } from '@mui/material';
+import type { ProjectAndMembersPayload, ProjectWithMembers } from '@packages/lib/projects/interfaces';
 import type { FormFieldValue, FormFieldInput, TypedFormField } from '@packages/lib/proposals/forms/interfaces';
+import type { ProposalToErrorCheck } from '@packages/lib/proposals/getProposalErrors';
+import { getProposalErrors } from '@packages/lib/proposals/getProposalErrors';
+import type { ProposalWithUsersAndRubric } from '@packages/lib/proposals/interfaces';
 import { delay } from '@packages/lib/utils/async';
 import { useState } from 'react';
 import type { Control } from 'react-hook-form';
@@ -12,10 +16,6 @@ import { StickyFooterContainer } from 'components/[pageId]/DocumentPage/componen
 import { Button } from 'components/common/Button';
 import { useCurrentSpace } from 'hooks/useCurrentSpace';
 import { useSnackbar } from 'hooks/useSnackbar';
-import type { ProjectAndMembersPayload, ProjectWithMembers } from '@packages/lib/projects/interfaces';
-import type { ProposalToErrorCheck } from '@packages/lib/proposals/getProposalErrors';
-import { getProposalErrors } from '@packages/lib/proposals/getProposalErrors';
-import type { ProposalWithUsersAndRubric } from '@packages/lib/proposals/interfaces';
 
 export function ProposalStickyFooter({
   proposal,

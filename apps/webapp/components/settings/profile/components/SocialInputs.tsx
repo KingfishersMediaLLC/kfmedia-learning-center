@@ -1,9 +1,9 @@
 import Grid from '@mui/material/Grid';
 import TextField from '@mui/material/TextField';
+import type { Social } from '@packages/lib/members/interfaces';
 import type { FieldErrors } from 'react-hook-form';
 
 import { FieldWrapper } from 'components/common/form/fields/FieldWrapper';
-import type { Social } from '@packages/lib/members/interfaces';
 
 type SocialInputsProps = {
   social?: Social;
@@ -33,7 +33,7 @@ export function SocialInputs(props: SocialInputsProps) {
           disabled={readOnly}
           error={!!errors?.twitterURL?.message}
           helperText={errors?.twitterURL?.message}
-          placeholder='https://x.com/charmverse'
+          placeholder='https://x.com/KFMEDIA'
           onChange={(event) => {
             onChange({
               ...social,
@@ -49,7 +49,7 @@ export function SocialInputs(props: SocialInputsProps) {
           fullWidth
           error={!!errors?.githubURL?.message}
           helperText={errors?.githubURL?.message}
-          placeholder='https://github.com/charmverse'
+          placeholder='https://github.com/KFMEDIA'
           onChange={(event) => {
             onChange({
               ...social,

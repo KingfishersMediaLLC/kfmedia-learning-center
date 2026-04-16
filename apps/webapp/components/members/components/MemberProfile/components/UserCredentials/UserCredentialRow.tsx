@@ -10,9 +10,9 @@ import type {
   EASAttestationFromApi,
   EASAttestationWithFavorite
 } from '@packages/credentials/external/getOnchainCredentials';
-import { trackedCharmverseSchemas, trackedSchemas } from '@packages/credentials/external/schemas';
+import { trackedKFMEDIASchemas, trackedSchemas } from '@packages/credentials/external/schemas';
 import { externalCredentialSchemaId } from '@packages/credentials/schemas/external';
-import { charmverseCredentialSchemas } from '@packages/credentials/schemas/index';
+import { KFMEDIACredentialSchemas } from '@packages/credentials/schemas/index';
 import { type CredentialDataInput } from '@packages/credentials/schemas/interfaces';
 import { proposalCredentialSchemaId } from '@packages/credentials/schemas/proposal';
 import { rewardCredentialSchemaId } from '@packages/credentials/schemas/reward';
@@ -44,7 +44,7 @@ export function UserCredentialRow({
   const { showMessage } = useSnackbar();
   const schemaInfo = (
     trackedSchemas[credential.chainId as keyof typeof trackedSchemas] ??
-    trackedCharmverseSchemas[credential.chainId as keyof typeof trackedCharmverseSchemas]
+    trackedKFMEDIASchemas[credential.chainId as keyof typeof trackedKFMEDIASchemas]
   )?.find((s) => s.schemaId === credential.schemaId);
   const { user } = useUser();
   const isUserRecipient = user?.wallets.find((wallet) => lowerCaseEqual(wallet.address, credential.recipient));
@@ -57,10 +57,10 @@ export function UserCredentialRow({
         await addFavorite({
           chainId: credential.chainId,
           attestationId:
-            (credential.type === 'onchain' || credential.type === 'charmverse') && credential.id.startsWith('0x')
+            (credential.type === 'onchain' || credential.type === 'KFMEDIA') && credential.id.startsWith('0x')
               ? credential.id
               : undefined,
-          issuedCredentialId: credential.type === 'charmverse' ? credential.issuedCredentialId : undefined,
+          issuedCredentialId: credential.type === 'KFMEDIA' ? credential.issuedCredentialId : undefined,
           gitcoinWalletAddress: credential.type === 'gitcoin' ? credential.recipient : undefined
         });
       }
@@ -77,8 +77,8 @@ export function UserCredentialRow({
     iconUrl: string | OverridableComponent<SvgIconTypeMap>;
     attestationContent: { name: string; value: string }[];
   } =
-    (credential.type === 'charmverse' ||
-      (credential.type === 'onchain' && charmverseCredentialSchemas.includes(credential.schemaId))) &&
+    (credential.type === 'KFMEDIA' ||
+      (credential.type === 'onchain' && KFMEDIACredentialSchemas.includes(credential.schemaId))) &&
     'Organization' in charmCredential
       ? {
           title: charmCredential.Name,
@@ -86,7 +86,7 @@ export function UserCredentialRow({
           iconUrl: credential.iconUrl ?? '/images/logo_black_lightgrey.png',
           attestationContent: [{ name: 'Event', value: charmCredential.Event }]
         }
-      : credential.type === 'charmverse' &&
+      : credential.type === 'KFMEDIA' &&
           credential.schemaId === externalCredentialSchemaId &&
           'GrantRound' in charmCredential &&
           charmCredential.Source === 'Gitcoin'
@@ -96,7 +96,7 @@ export function UserCredentialRow({
             iconUrl: credential.iconUrl ?? '/images/logos/gitcoin-logo.png',
             attestationContent: [{ name: 'Event', value: charmCredential.Event }]
           }
-        : credential.type === 'charmverse' &&
+        : credential.type === 'KFMEDIA' &&
             credential.schemaId === externalCredentialSchemaId &&
             'GrantRound' in charmCredential &&
             charmCredential.Source === 'Questbook'
@@ -180,7 +180,7 @@ export function UserCredentialRow({
       {typeof credentialInfo.iconUrl === 'string' ? (
         <Image
           src={credentialInfo.iconUrl}
-          alt='charmverse-logo'
+          alt='KFMEDIA-logo'
           height={isSmallScreen ? 40 : 30}
           width={isSmallScreen ? 40 : 30}
         />

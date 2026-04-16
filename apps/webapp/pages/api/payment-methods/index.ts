@@ -1,5 +1,5 @@
-import type { PaymentMethod, Prisma } from '@charmverse/core/prisma';
-import { prisma } from '@charmverse/core/prisma-client';
+import type { PaymentMethod, Prisma } from '@KFMEDIA/core/prisma';
+import { prisma } from '@KFMEDIA/core/prisma-client';
 import { InvalidInputError } from '@packages/core/errors';
 import { onError, onNoMatch, requireKeys, requireSpaceMembership } from '@packages/lib/middleware';
 import { withSessionRoute } from '@packages/lib/session/withSession';

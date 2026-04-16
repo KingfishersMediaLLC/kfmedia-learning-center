@@ -1,7 +1,8 @@
-import type { Space } from '@charmverse/core/prisma';
 import { yupResolver } from '@hookform/resolvers/yup';
+import type { Space } from '@KFMEDIA/core/prisma';
 import { Box, Stack, TextField } from '@mui/material';
 import InputAdornment from '@mui/material/InputAdornment';
+import { getSnapshotSpace } from '@packages/lib/snapshot/getSpace';
 import { isTruthy } from '@packages/utils/types';
 import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
@@ -13,7 +14,6 @@ import FieldLabel from 'components/common/form/FieldLabel';
 import { useConfirmationModal } from 'hooks/useConfirmationModal';
 import { useCurrentSpace } from 'hooks/useCurrentSpace';
 import { useSnackbar } from 'hooks/useSnackbar';
-import { getSnapshotSpace } from '@packages/lib/snapshot/getSpace';
 
 import { IntegrationContainer } from '../IntegrationContainer';
 

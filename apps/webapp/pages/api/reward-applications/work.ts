@@ -1,11 +1,6 @@
-import { prisma, type Application } from '@charmverse/core/prisma-client';
+import { prisma, type Application } from '@KFMEDIA/core/prisma-client';
 import { findSpaceIssuableRewardCredentials } from '@packages/credentials/findIssuableRewardCredentials';
 import { getProposalOrApplicationCredentials } from '@packages/credentials/getProposalOrApplicationCredentials';
-import { ActionNotPermittedError } from '@packages/nextjs/errors';
-import { UnauthorisedActionError } from '@packages/utils/errors';
-import type { NextApiRequest, NextApiResponse } from 'next';
-import nc from 'next-connect';
-
 import { onError, onNoMatch, requireKeys, requireUser } from '@packages/lib/middleware';
 import { permissionsApiClient } from '@packages/lib/permissions/api/client';
 import { providePermissionClients } from '@packages/lib/permissions/api/permissionsClientMiddleware';
@@ -13,6 +8,10 @@ import { computeBountyPermissions } from '@packages/lib/permissions/bounties';
 import type { ApplicationWithTransactions } from '@packages/lib/rewards/interfaces';
 import { work } from '@packages/lib/rewards/work';
 import { withSessionRoute } from '@packages/lib/session/withSession';
+import { ActionNotPermittedError } from '@packages/nextjs/errors';
+import { UnauthorisedActionError } from '@packages/utils/errors';
+import type { NextApiRequest, NextApiResponse } from 'next';
+import nc from 'next-connect';
 
 const handler = nc<NextApiRequest, NextApiResponse>({ onError, onNoMatch });
 

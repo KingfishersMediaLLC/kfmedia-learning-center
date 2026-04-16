@@ -1,5 +1,5 @@
-import type { TelegramUser } from '@charmverse/core/prisma';
-import { prisma } from '@charmverse/core/prisma-client';
+import type { TelegramUser } from '@KFMEDIA/core/prisma';
+import { prisma } from '@KFMEDIA/core/prisma-client';
 import { log } from '@packages/core/log';
 import { onError, onNoMatch, requireUser } from '@packages/lib/middleware';
 import { withSessionRoute } from '@packages/lib/session/withSession';
@@ -26,7 +26,7 @@ async function connectTelegram(req: NextApiRequest, res: NextApiResponse<Telegra
   if (telegramUser) {
     if (telegramUser.userId !== userId) {
       throw new InvalidStateError(
-        'Connection to Telegram failed. Another CharmVerse account is already associated with this Telegram account.'
+        'Connection to Telegram failed. Another KFMEDIA account is already associated with this Telegram account.'
       );
     }
   } else {

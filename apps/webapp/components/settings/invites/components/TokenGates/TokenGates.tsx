@@ -1,4 +1,4 @@
-import type { Space } from '@charmverse/core/prisma';
+import type { Space } from '@KFMEDIA/core/prisma';
 import type { PopupState } from 'material-ui-popup-state/hooks';
 
 import { useGetTokenGates } from 'charmClient/hooks/tokenGates';

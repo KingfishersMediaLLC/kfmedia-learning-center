@@ -1,5 +1,5 @@
-import type { PaymentMethod } from '@charmverse/core/prisma';
 import { yupResolver } from '@hookform/resolvers/yup';
+import type { PaymentMethod } from '@KFMEDIA/core/prisma';
 import Alert from '@mui/material/Alert';
 import Progress from '@mui/material/CircularProgress';
 import Grid from '@mui/material/Grid';
@@ -256,7 +256,7 @@ export default function PaymentForm({ onSubmit, defaultChainId = 1 }: Props) {
                     fullWidth
                     error={!!errors.tokenLogo?.message}
                     helperText={errors.tokenLogo?.message}
-                    placeholder='https://app.charmverse.io/favicon.png'
+                    placeholder='https://app.KFMEDIA.io/favicon.png'
                   />
                   {(errors?.tokenLogo || (validTokenLogoAddressFormat && !logoLoadSuccess)) && (
                     <Alert severity='error'>Invalid token logo url</Alert>

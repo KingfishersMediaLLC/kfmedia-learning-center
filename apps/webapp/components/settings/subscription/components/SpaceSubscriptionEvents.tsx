@@ -24,7 +24,7 @@ function SubscriptionTierChangeEventRow({ event }: { event: SubscriptionTierChan
       <Box display='flex' alignItems='center' gap={1}>
         <Avatar
           name={user?.username}
-          avatar={user ? user?.avatar : 'https://app.charmverse.io/images/logos/charmverse_black.png'}
+          avatar={user ? user?.avatar : 'https://app.KFMEDIA.io/images/logos/KFMEDIA_black.png'}
           size='small'
           isNft={user ? hasNftAvatar(user) : false}
         />
@@ -33,7 +33,7 @@ function SubscriptionTierChangeEventRow({ event }: { event: SubscriptionTierChan
             ? _isDowngrade
               ? `${user.username} selected ${tierConfig[event.tier].name} tier for next month`
               : `${user.username} upgraded to ${capitalize(event.tier)} tier`
-            : `CharmVerse ${_isDowngrade ? 'downgraded' : 'upgraded'} the tier to ${tierConfig[event.tier].name}`}
+            : `KFMEDIA ${_isDowngrade ? 'downgraded' : 'upgraded'} the tier to ${tierConfig[event.tier].name}`}
         </Typography>
         <Typography variant='caption' color='text.secondary'>
           {formatDate(event.createdAt, { month: 'long', withYear: true })}
@@ -52,11 +52,11 @@ function SubscriptionContributionEventRow({ event }: { event: SubscriptionContri
       <Box display='flex' alignItems='center' gap={1}>
         <Avatar
           name={user ? user.username : undefined}
-          avatar={user ? user?.avatar : 'https://app.charmverse.io/images/logos/charmverse_black.png'}
+          avatar={user ? user?.avatar : 'https://app.KFMEDIA.io/images/logos/KFMEDIA_black.png'}
           size='small'
           isNft={user ? hasNftAvatar(user) : false}
         />
-        <Typography variant='body1'>Contribution by {user ? user?.username : 'CharmVerse'}</Typography>
+        <Typography variant='body1'>Contribution by {user ? user?.username : 'KFMEDIA'}</Typography>
         <Typography variant='caption' color='text.secondary'>
           {formatDate(event.createdAt, { month: 'long', withYear: true })}
         </Typography>
@@ -78,7 +78,7 @@ function SubscriptionPaymentEventRow({ event }: { event: SubscriptionPaymentEven
   return (
     <Stack flexDirection='row' justifyContent='space-between' alignItems='center' gap={1}>
       <Box display='flex' alignItems='center' gap={1}>
-        <Avatar avatar='https://app.charmverse.io/images/logos/charmverse_black.png' size='small' />
+        <Avatar avatar='https://app.KFMEDIA.io/images/logos/KFMEDIA_black.png' size='small' />
         <Typography variant='body1'>
           {month} {date.getFullYear()} - {capitalize(event.tier)} Plan
         </Typography>

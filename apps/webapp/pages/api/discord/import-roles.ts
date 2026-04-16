@@ -1,7 +1,4 @@
-import { prisma } from '@charmverse/core/prisma-client';
-import type { NextApiRequest, NextApiResponse } from 'next';
-import nc from 'next-connect';
-
+import { prisma } from '@KFMEDIA/core/prisma-client';
 import type { DiscordGuildMember } from '@packages/lib/discord/assignRoles';
 import { assignRolesFromDiscord } from '@packages/lib/discord/assignRoles';
 import { getGuildMemberHandled } from '@packages/lib/discord/client/getGuildMember';
@@ -10,6 +7,8 @@ import type { DiscordServerRole } from '@packages/lib/discord/interface';
 import { onError, onNoMatch, requireSpaceMembership, requireUser } from '@packages/lib/middleware';
 import { findOrCreateRoles } from '@packages/lib/roles/createRoles';
 import { withSessionRoute } from '@packages/lib/session/withSession';
+import type { NextApiRequest, NextApiResponse } from 'next';
+import nc from 'next-connect';
 
 const handler = nc({
   onError,

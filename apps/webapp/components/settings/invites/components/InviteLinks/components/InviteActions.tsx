@@ -1,4 +1,4 @@
-import type { Space } from '@charmverse/core/prisma-client';
+import type { Space } from '@KFMEDIA/core/prisma-client';
 import AddIcon from '@mui/icons-material/Add';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { Box, ListItemText, Tooltip } from '@mui/material';

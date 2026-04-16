@@ -1,4 +1,4 @@
-import type { PublicInviteLinkContext } from '@charmverse/core/prisma-client';
+import type { PublicInviteLinkContext } from '@KFMEDIA/core/prisma-client';
 import { DataNotFoundError } from '@packages/core/errors';
 import type { InviteLinkPopulated } from '@packages/lib/invites/getInviteLink';
 import { getPublicInviteLink } from '@packages/lib/invites/getPublicInviteLink';

@@ -1,4 +1,4 @@
-import type { KycOption } from '@charmverse/core/prisma-client';
+import type { KycOption } from '@KFMEDIA/core/prisma-client';
 import Box from '@mui/material/Box';
 import FormHelperText from '@mui/material/FormHelperText';
 import MenuItem from '@mui/material/MenuItem';
@@ -110,9 +110,7 @@ export function KYCSettingsForm({ isAdmin, control }: { isAdmin: boolean; contro
               helperText={synapsSecretError?.message}
             />
             <Typography variant='caption'>{'Select a secret from: Synaps Manager > Integration > Webhook'}</Typography>
-            <Typography variant='caption'>
-              Add https://webhooks.charmverse.co/synaps-events as the webhook url
-            </Typography>
+            <Typography variant='caption'>Add https://webhooks.KFMEDIA.co/synaps-events as the webhook url</Typography>
           </Box>
         </>
       )}
@@ -151,7 +149,7 @@ export function KYCSettingsForm({ isAdmin, control }: { isAdmin: boolean; contro
             </Typography>
             <br />
             <Typography variant='caption'>
-              Add https://app.charmverse.io/api/v1/webhooks/persona as the webhook url
+              Add https://app.KFMEDIA.io/api/v1/webhooks/persona as the webhook url
             </Typography>
           </Box>
           <Box>

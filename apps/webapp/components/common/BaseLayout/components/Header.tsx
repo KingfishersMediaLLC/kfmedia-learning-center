@@ -10,8 +10,8 @@ import UserDisplay from 'components/common/UserDisplay';
 import IdentityModal from 'components/settings/profile/components/IdentityModal';
 import { useBaseCurrentDomain } from 'hooks/useBaseCurrentDomain';
 import { useUser } from 'hooks/useUser';
-import darkLogoImage from 'public/images/charmverse_logo_sm_black.png';
-import whiteLogoImage from 'public/images/charmverse_logo_sm_white.png';
+import darkLogoImage from 'public/images/KFMEDIA_logo_sm_black.png';
+import whiteLogoImage from 'public/images/KFMEDIA_logo_sm_white.png';
 
 const HeaderBox = styled('div')`
   margin: ${({ theme }) => theme.spacing(3)};
@@ -38,7 +38,7 @@ export function Header() {
           </Typography>
         </Box>
       ) : customDomain === null ? (
-        <Image src={logo} alt='CharmVerse' />
+        <Image src={logo} alt='KFMEDIA' />
       ) : null}
       <UserMenu />
     </HeaderBox>

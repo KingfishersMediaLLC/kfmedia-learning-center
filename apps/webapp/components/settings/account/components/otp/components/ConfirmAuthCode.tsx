@@ -1,6 +1,6 @@
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import { charmverseDiscordInvite } from '@packages/config/constants';
+import { KFMEDIADiscordInvite } from '@packages/config/constants';
 import { useForm } from 'react-hook-form';
 
 import { Button } from 'components/common/Button';
@@ -36,7 +36,7 @@ export function ConfirmAuthCode({ onSubmit, errorMessage, loading, changeType }:
         Enter the confirmation code
       </Typography>
       <Typography mb={2}>
-        Follow the instructions on the authenticator app to link your CharmVerse account. Once the authenticator app
+        Follow the instructions on the authenticator app to link your KFMEDIA account. Once the authenticator app
         generates a confirmation code enter it here.
       </Typography>
       <Box maxWidth={300} mb={1}>
@@ -64,8 +64,8 @@ export function ConfirmAuthCode({ onSubmit, errorMessage, loading, changeType }:
             Use backup code
           </Button>
         )}
-        <Link href={charmverseDiscordInvite} variant='body2' external target='_blank'>
-          Contact Charmverse Support
+        <Link href={KFMEDIADiscordInvite} variant='body2' external target='_blank'>
+          Contact KFMEDIA Support
         </Link>
       </Box>
       <Button

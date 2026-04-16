@@ -1,9 +1,8 @@
-import type { ApplicationStatus } from '@charmverse/core/prisma-client';
-import { styled } from '@mui/material';
+import type { ApplicationStatus } from '@KFMEDIA/core/prisma-client';
 import CollapseIcon from '@mui/icons-material/ArrowDropDown';
 import ExpandIcon from '@mui/icons-material/ArrowRight';
 import DragIndicatorIcon from '@mui/icons-material/DragIndicator';
-import { Box, Checkbox, Stack } from '@mui/material';
+import { styled, Box, Checkbox, Stack } from '@mui/material';
 import type { Board } from '@packages/databases/board';
 import type { BoardView } from '@packages/databases/boardView';
 import type { Card, CardWithRelations } from '@packages/databases/card';

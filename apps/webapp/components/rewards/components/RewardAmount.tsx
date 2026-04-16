@@ -1,10 +1,11 @@
-import type { Bounty as Reward } from '@charmverse/core/prisma';
+import type { Bounty as Reward } from '@KFMEDIA/core/prisma';
 import RewardIcon from '@mui/icons-material/RequestPageOutlined';
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import Tooltip from '@mui/material/Tooltip';
 import Typography, { type TypographyProps } from '@mui/material/Typography';
 import { getChainById } from '@packages/blockchain/connectors/chains';
+import { getTokenInfo } from '@packages/lib/tokens/tokenData';
 import { fancyTrim } from '@packages/utils/strings';
 import { isTruthy } from '@packages/utils/types';
 import millify from 'millify';
@@ -13,7 +14,6 @@ import { EmptyPlaceholder } from 'components/common/DatabaseEditor/components/pr
 import { TokenLogo } from 'components/common/Icons/TokenLogo';
 import { TokenBadge } from 'components/common/TokenBadge';
 import { usePaymentMethods } from 'hooks/usePaymentMethods';
-import { getTokenInfo } from '@packages/lib/tokens/tokenData';
 
 export interface IRewardBadgeProps {
   reward: Partial<Pick<Reward, 'rewardAmount' | 'rewardToken' | 'chainId' | 'customReward' | 'status'>>;

@@ -1,4 +1,4 @@
-import { prisma } from '@charmverse/core/prisma-client';
+import { prisma } from '@KFMEDIA/core/prisma-client';
 import { log } from '@packages/core/log';
 import type { SignatureVerificationPayload } from '@packages/lib/blockchain/signAndVerify';
 import { updateGuildRolesForUser } from '@packages/lib/guild-xyz/server/updateGuildRolesForUser';

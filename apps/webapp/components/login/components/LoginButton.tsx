@@ -1,4 +1,4 @@
-import type { IdentityType } from '@charmverse/core/prisma';
+import type { IdentityType } from '@KFMEDIA/core/prisma';
 import EmailIcon from '@mui/icons-material/EmailOutlined';
 import { styled } from '@mui/material';
 import Box from '@mui/material/Box';

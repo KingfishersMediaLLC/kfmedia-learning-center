@@ -1,4 +1,4 @@
-import type { Space } from '@charmverse/core/prisma';
+import type { Space } from '@KFMEDIA/core/prisma';
 import { Box, Stack, Typography } from '@mui/material';
 import SvgIcon from '@mui/material/SvgIcon';
 import { log } from '@packages/core/log';

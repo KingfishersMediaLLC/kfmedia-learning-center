@@ -1,4 +1,4 @@
-import type { Space } from '@charmverse/core/prisma-client';
+import type { Space } from '@KFMEDIA/core/prisma-client';
 import type { TokenGateEvaluationResult } from '@packages/lib/tokenGates/evaluateEligibility';
 import type { TokenGateJoinType, TokenGateWithRoles } from '@packages/lib/tokenGates/interfaces';
 import { useEffect, useState } from 'react';

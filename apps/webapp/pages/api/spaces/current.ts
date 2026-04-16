@@ -1,10 +1,9 @@
-import type { Space } from '@charmverse/core/prisma';
-import { prisma } from '@charmverse/core/prisma-client';
-import type { NextApiRequest, NextApiResponse } from 'next';
-import nc from 'next-connect';
-
+import type { Space } from '@KFMEDIA/core/prisma';
+import { prisma } from '@KFMEDIA/core/prisma-client';
 import { onError, onNoMatch, requireUser } from '@packages/lib/middleware';
 import { withSessionRoute } from '@packages/lib/session/withSession';
+import type { NextApiRequest, NextApiResponse } from 'next';
+import nc from 'next-connect';
 
 const handler = nc<NextApiRequest, NextApiResponse>({ onError, onNoMatch });
 

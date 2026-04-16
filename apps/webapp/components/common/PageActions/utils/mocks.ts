@@ -1,6 +1,5 @@
-import type { ParseResult } from 'papaparse';
-
 import type { IPropertyTemplate } from '@packages/databases/board';
+import type { ParseResult } from 'papaparse';
 
 import type { MappedProperties } from './databasePageOptions';
 
@@ -59,8 +58,8 @@ export const mockCsvRow = {
   'Multi Select': 'human|dog',
   'Assigned person': '8h5t73b6-1d7d-0j6f-a3c4-ef27e624185b',
   Date: 'December 17 2021',
-  Url: 'www.charmverse.io',
-  Email: 'test@charmversetest.io',
+  Url: 'www.KFMEDIA.io',
+  Email: 'test@KFMEDIAtest.io',
   Checkbox: 'true'
 };
 
@@ -70,8 +69,8 @@ export const mockCsvRowWithMultiSelectAsHeaders = {
   'Multi Select': 'human|dog',
   'Assigned person': '8h5t73b6-1d7d-0j6f-a3c4-ef27e624185b',
   Date: 'December 17 2021',
-  Url: 'www.charmverse.io',
-  Email: 'test@charmversetest.io',
+  Url: 'www.KFMEDIA.io',
+  Email: 'test@KFMEDIAtest.io',
   Checkbox: 'true',
   A: 'A',
   B: '',

@@ -1,4 +1,4 @@
-import type { Page } from '@charmverse/core/prisma';
+import type { Page } from '@KFMEDIA/core/prisma';
 import ArticleIcon from '@mui/icons-material/InsertDriveFileOutlined';
 import DatabaseIcon from '@mui/icons-material/TableChart';
 import { ListItemIcon, ListItemText } from '@mui/material';

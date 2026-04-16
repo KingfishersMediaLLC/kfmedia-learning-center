@@ -1,4 +1,4 @@
-import { prisma } from '@charmverse/core/prisma-client';
+import { prisma } from '@KFMEDIA/core/prisma-client';
 import { log } from '@packages/core/log';
 import { refreshENSName } from '@packages/lib/blockchain/refreshENSName';
 import type { SignatureVerificationPayload } from '@packages/lib/blockchain/signAndVerify';

@@ -1,4 +1,4 @@
-import type { Space } from '@charmverse/core/prisma';
+import type { Space } from '@KFMEDIA/core/prisma';
 import { FormHelperText, ListItemIcon, ListItemText, MenuItem, Select } from '@mui/material';
 import type { SelectProps } from '@mui/material/Select';
 import type { IChainDetails } from '@packages/blockchain/connectors/chains';

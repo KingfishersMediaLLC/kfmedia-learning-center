@@ -1,4 +1,4 @@
-import type { SpaceSubscriptionTier } from '@charmverse/core/prisma';
+import type { SpaceSubscriptionTier } from '@KFMEDIA/core/prisma';
 import CheckIcon from '@mui/icons-material/Check';
 import { Box, Chip, Divider, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from '@mui/material';
 import type { UpgradableTier } from '@packages/subscriptions/constants';
@@ -212,11 +212,11 @@ export function SubscriptionTiers({
           <Button
             fullWidth
             variant='outlined'
-            href='mailto:hello@charmverse.io'
+            href='mailto:hello@KFMEDIA.io'
             external
             sx={{ whiteSpace: 'normal', textAlign: 'left' }}
           >
-            Contact hello@charmverse.io
+            Contact hello@KFMEDIA.io
           </Button>
         </Grid>
         <Grid size={{ xs: 12, sm: 7.5 }}>

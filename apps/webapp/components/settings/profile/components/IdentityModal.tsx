@@ -1,4 +1,4 @@
-import type { IdentityType } from '@charmverse/core/prisma';
+import type { IdentityType } from '@KFMEDIA/core/prisma';
 import { Refresh as RefreshIcon } from '@mui/icons-material';
 import { Box, Chip, MenuItem, Tooltip, Typography } from '@mui/material';
 import IconButton from '@mui/material/IconButton';
@@ -337,8 +337,8 @@ export function UserIdentities() {
                             Are you sure you want to Disconnect your {wallet.ensname || wallet.address} wallet?
                           </Typography>
                           <Typography variant='body2'>
-                            This action will remove your wallet, NFTs, POAPs, Organizations from CharmVerse. It will
-                            also remove roles and permissions if you joined the Space via a token gate.
+                            This action will remove your wallet, NFTs, POAPs, Organizations from KFMEDIA. It will also
+                            remove roles and permissions if you joined the Space via a token gate.
                           </Typography>
                         </>
                       )}

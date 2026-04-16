@@ -1,4 +1,4 @@
-import type { Prisma } from '@charmverse/core/prisma-client';
+import type { Prisma } from '@KFMEDIA/core/prisma-client';
 import type { Theme } from '@mui/material';
 import { styled, Box, Divider, Tab, Tabs, useMediaQuery } from '@mui/material';
 import type { ICharmEditorOutput } from '@packages/bangleeditor/specRegistry';

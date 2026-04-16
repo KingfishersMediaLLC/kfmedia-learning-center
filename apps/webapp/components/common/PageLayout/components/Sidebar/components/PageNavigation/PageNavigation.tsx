@@ -1,4 +1,4 @@
-import type { Page } from '@charmverse/core/prisma';
+import type { Page } from '@KFMEDIA/core/prisma';
 import type { PageNodeWithChildren } from '@packages/core/pages';
 import { mapPageTree, isParentNode, sortNodes } from '@packages/core/pages/mapPageTree';
 import { isTruthy } from '@packages/utils/types';

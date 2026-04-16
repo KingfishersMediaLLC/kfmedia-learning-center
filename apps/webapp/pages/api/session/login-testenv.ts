@@ -1,4 +1,4 @@
-import type { IdentityType } from '@charmverse/core/prisma-client';
+import type { IdentityType } from '@KFMEDIA/core/prisma-client';
 import { isTestEnv } from '@packages/config/constants';
 import { onError, onNoMatch } from '@packages/lib/middleware';
 import { withSessionRoute } from '@packages/lib/session/withSession';

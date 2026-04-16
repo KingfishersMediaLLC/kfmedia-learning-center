@@ -1,4 +1,6 @@
-import type { ProposalEvaluationResult, ProposalSystemRole } from '@charmverse/core/prisma';
+import type { ProposalEvaluationResult, ProposalSystemRole } from '@KFMEDIA/core/prisma';
+import type { IPropertyTemplate, PropertyType } from '@packages/databases/board';
+import type { ProposalEvaluationStep } from '@packages/lib/proposals/interfaces';
 import { isTruthy } from '@packages/utils/types';
 import { useMemo } from 'react';
 
@@ -9,8 +11,6 @@ import type { ViewHeaderRowsMenuProps } from 'components/common/DatabaseEditor/c
 import { ViewHeaderRowsMenu } from 'components/common/DatabaseEditor/components/viewHeader/ViewHeaderRowsMenu/ViewHeaderRowsMenu';
 import { useConfirmationModal } from 'hooks/useConfirmationModal';
 import { useSnackbar } from 'hooks/useSnackbar';
-import type { IPropertyTemplate, PropertyType } from '@packages/databases/board';
-import type { ProposalEvaluationStep } from '@packages/lib/proposals/interfaces';
 
 import { useBatchUpdateProposalStatusOrStep } from '../hooks/useBatchUpdateProposalStatusOrStep';
 import { useProposals } from '../hooks/useProposals';

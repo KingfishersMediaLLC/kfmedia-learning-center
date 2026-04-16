@@ -1,4 +1,4 @@
-import type { PageType } from '@charmverse/core/prisma-client';
+import type { PageType } from '@KFMEDIA/core/prisma-client';
 import { Stack, Box, Typography, Switch } from '@mui/material';
 import { checkIsContentEmpty } from '@packages/charmeditor/utils/checkIsContentEmpty';
 import { useState } from 'react';

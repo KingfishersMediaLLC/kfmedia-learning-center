@@ -1,10 +1,10 @@
-import type { BountyStatus as RewardStatus } from '@charmverse/core/prisma';
-import { styled } from '@mui/material';
+import type { BountyStatus as RewardStatus } from '@KFMEDIA/core/prisma';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import LightbulbIcon from '@mui/icons-material/Lightbulb';
 import ModeStandbyIcon from '@mui/icons-material/ModeStandby';
 import PaidIcon from '@mui/icons-material/Paid';
 import BountyIcon from '@mui/icons-material/RequestPageOutlined';
+import { styled } from '@mui/material';
 import type { ChipProps } from '@mui/material/Chip';
 import Chip from '@mui/material/Chip';
 import type { ReactNode } from 'react';

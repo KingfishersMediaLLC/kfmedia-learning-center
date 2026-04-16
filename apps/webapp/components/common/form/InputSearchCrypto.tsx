@@ -1,9 +1,10 @@
-import type { PaymentMethod } from '@charmverse/core/prisma';
+import type { PaymentMethod } from '@KFMEDIA/core/prisma';
 import AddIcon from '@mui/icons-material/Add';
 import type { AutocompleteProps, SxProps, Theme } from '@mui/material';
 import { Autocomplete, Box, MenuItem, ListItemText, ListItemIcon, Stack, TextField, Typography } from '@mui/material';
 import type { CryptoCurrency } from '@packages/blockchain/connectors/chains';
 import { CryptoCurrencies, getChainById } from '@packages/blockchain/connectors/chains';
+import { getTokenInfo } from '@packages/lib/tokens/tokenData';
 import uniq from 'lodash/uniq';
 import { usePopupState } from 'material-ui-popup-state/hooks';
 import { useEffect, useState } from 'react';
@@ -12,7 +13,6 @@ import CustomERCTokenForm from 'components/common/form/CustomERCTokenForm';
 import { TokenLogo } from 'components/common/Icons/TokenLogo';
 import Modal from 'components/common/Modal';
 import { usePaymentMethods } from 'hooks/usePaymentMethods';
-import { getTokenInfo } from '@packages/lib/tokens/tokenData';
 
 type CryptoValue = string | CryptoCurrency | { chainId: number; tokenAddress: string };
 

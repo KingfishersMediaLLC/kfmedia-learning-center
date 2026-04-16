@@ -1,5 +1,5 @@
-import type { ProjectMember } from '@charmverse/core/prisma';
 import { yupResolver } from '@hookform/resolvers/yup';
+import type { ProjectMember } from '@KFMEDIA/core/prisma';
 import { createDefaultProjectAndMembersPayload } from '@packages/lib/projects/constants';
 import { convertToProjectValues } from '@packages/lib/projects/convertToProjectValues';
 import { createProjectYupSchema } from '@packages/lib/projects/createProjectYupSchema';

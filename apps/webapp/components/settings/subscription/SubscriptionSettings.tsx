@@ -1,4 +1,4 @@
-import type { Space } from '@charmverse/core/prisma';
+import type { Space } from '@KFMEDIA/core/prisma';
 import { Box, Divider, Link, Stack, Typography } from '@mui/material';
 import type { DowngradeableTier, UpgradableTier } from '@packages/subscriptions/constants';
 import { downgradeableTiers } from '@packages/subscriptions/constants';
@@ -118,12 +118,12 @@ export function SubscriptionSettings({ space: { id: spaceId, paidTier, name } }:
         <Box pt={2} pb={4}>
           <Typography variant='body2' align='center'>
             Read more about our new pricing tiers{' '}
-            <Link href='https://charmverse.io/post/community-pricing' target='_blank'>
+            <Link href='https://KFMEDIA.io/post/community-pricing' target='_blank'>
               here
             </Link>
             . Have questions? Contact{' '}
-            <Link target='_blank' href='mailto:hello@charmverse.io'>
-              hello@charmverse.io
+            <Link target='_blank' href='mailto:hello@KFMEDIA.io'>
+              hello@KFMEDIA.io
             </Link>
           </Typography>
         </Box>

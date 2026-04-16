@@ -1,5 +1,4 @@
-import type { Page } from '@charmverse/core/prisma';
-import { styled } from '@mui/material';
+import type { Page } from '@KFMEDIA/core/prisma';
 import MembersIcon from '@mui/icons-material/AccountCircle';
 import FilledPageIcon from '@mui/icons-material/DescriptionOutlined';
 import EmptyPageIcon from '@mui/icons-material/InsertDriveFileOutlined';
@@ -10,7 +9,7 @@ import DatabaseIcon from '@mui/icons-material/TableChart';
 import ProposalIcon from '@mui/icons-material/TaskOutlined';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import WidgetsOutlinedIcon from '@mui/icons-material/WidgetsOutlined';
-import { Box } from '@mui/material';
+import { styled, Box } from '@mui/material';
 import type { StaticPageType } from '@packages/features/constants';
 import type { ComponentProps, ReactNode } from 'react';
 

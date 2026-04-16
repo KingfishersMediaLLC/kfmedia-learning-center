@@ -1,7 +1,7 @@
-import type { MemberProperty } from '@charmverse/core/prisma-client';
-import { styled } from '@mui/material';
+import type { MemberProperty } from '@KFMEDIA/core/prisma-client';
 import EditIcon from '@mui/icons-material/Edit';
 import {
+  styled,
   Box,
   Chip,
   IconButton,
@@ -14,6 +14,7 @@ import {
   Typography
 } from '@mui/material';
 import type { FarcasterProfile } from '@packages/farcaster/getFarcasterProfile';
+import type { Member, Social } from '@packages/lib/members/interfaces';
 import type { SelectOptionType } from '@packages/lib/proposals/forms/interfaces';
 
 import Avatar from 'components/common/Avatar';
@@ -24,7 +25,6 @@ import { useCurrentSpace } from 'hooks/useCurrentSpace';
 import { useDateFormatter } from 'hooks/useDateFormatter';
 import { useMemberProperties } from 'hooks/useMemberProperties';
 import { useUser } from 'hooks/useUser';
-import type { Member, Social } from '@packages/lib/members/interfaces';
 
 import { useMemberProfileDialog } from '../hooks/useMemberProfileDialog';
 

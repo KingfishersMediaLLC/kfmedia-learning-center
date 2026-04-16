@@ -1,8 +1,12 @@
-import type { MemberProperty, MemberPropertyPermission } from '@charmverse/core/prisma';
+import type { MemberProperty, MemberPropertyPermission } from '@KFMEDIA/core/prisma';
 import AddOutlinedIcon from '@mui/icons-material/AddOutlined';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import { Box, Checkbox, Collapse, IconButton, InputLabel, MenuItem, Stack, Tooltip, Typography } from '@mui/material';
+import type {
+  CreateMemberPropertyPermissionInput,
+  MemberPropertyWithPermissions
+} from '@packages/lib/members/interfaces';
 import { usePopupState } from 'material-ui-popup-state/hooks';
 import { useEffect, useMemo, useState } from 'react';
 
@@ -12,10 +16,6 @@ import Modal from 'components/common/Modal';
 import { useCurrentSpace } from 'hooks/useCurrentSpace';
 import { useIsAdmin } from 'hooks/useIsAdmin';
 import { useIsFreeSpace } from 'hooks/useIsFreeSpace';
-import type {
-  CreateMemberPropertyPermissionInput,
-  MemberPropertyWithPermissions
-} from '@packages/lib/members/interfaces';
 
 import { MemberPropertyVisibility } from './MemberPropertyVisibility';
 

@@ -1,4 +1,4 @@
-import type { MemberPropertyType } from '@charmverse/core/prisma';
+import type { MemberPropertyType } from '@KFMEDIA/core/prisma';
 import GithubIcon from '@mui/icons-material/GitHub';
 import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -6,13 +6,13 @@ import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
 import PersonIcon from '@mui/icons-material/Person';
 import TextIcon from '@mui/icons-material/TextFields';
 import { ListItemIcon, ListItemText, SvgIcon } from '@mui/material';
+import { MEMBER_PROPERTY_CONFIG, PREMIUM_MEMBER_PROPERTIES } from '@packages/lib/members/constants';
 import type { ReactNode } from 'react';
 import { FaGoogle, FaTelegramPlane, FaWallet } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 
 import { iconForPropertyType } from 'components/common/DatabaseEditor/widgets/iconForPropertyType';
 import { UpgradeChip } from 'components/settings/subscription/UpgradeWrapper';
-import { MEMBER_PROPERTY_CONFIG, PREMIUM_MEMBER_PROPERTIES } from '@packages/lib/members/constants';
 import DiscordIcon from 'public/images/logos/discord_logo.svg';
 import FarcasterLogo from 'public/images/logos/farcaster.svg';
 

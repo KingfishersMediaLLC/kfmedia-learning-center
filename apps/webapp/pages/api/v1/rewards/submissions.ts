@@ -1,5 +1,5 @@
-import type { ApplicationStatus } from '@charmverse/core/prisma-client';
-import { prisma } from '@charmverse/core/prisma-client';
+import type { ApplicationStatus } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@KFMEDIA/core/prisma-client';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 import { getMarkdownText } from 'lib/prosemirror/getMarkdownText';
@@ -34,7 +34,7 @@ handler.get(getSubmissions);
  *          type: number
  *        source:
  *          type: string
- *          enum: [onchain, charmverse]
+ *          enum: [onchain, KFMEDIA]
  *        verificationUrl:
  *          type: string
  *          nullable: true
@@ -100,7 +100,7 @@ type PublicApiEASCredential = {
   schemaId: string;
   createdAt: string;
   chainId: number;
-  source: 'onchain' | 'charmverse';
+  source: 'onchain' | 'KFMEDIA';
   verificationUrl: string | null;
 };
 

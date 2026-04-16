@@ -1,4 +1,4 @@
-import type { SpacePermissionConfigurationMode } from '@charmverse/core/prisma';
+import type { SpacePermissionConfigurationMode } from '@KFMEDIA/core/prisma';
 import { styled } from '@mui/material';
 import Alert from '@mui/material/Alert';
 import Box from '@mui/material/Box';
@@ -8,6 +8,8 @@ import InputAdornment from '@mui/material/InputAdornment';
 import Input from '@mui/material/OutlinedInput';
 import Switch from '@mui/material/Switch';
 import Typography from '@mui/material/Typography';
+import { configurationModeName } from '@packages/lib/permissions/meta/preset-templates';
+import { getAbsolutePath } from '@packages/lib/utils/browser';
 import { useEffect, useState } from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
@@ -15,8 +17,6 @@ import charmClient from 'charmClient';
 import { useCurrentSpace } from 'hooks/useCurrentSpace';
 import { useIsAdmin } from 'hooks/useIsAdmin';
 import { useSpaces } from 'hooks/useSpaces';
-import { configurationModeName } from '@packages/lib/permissions/meta/preset-templates';
-import { getAbsolutePath } from '@packages/lib/utils/browser';
 
 const StyledInput = styled(Input)`
   font-size: 0.8em;

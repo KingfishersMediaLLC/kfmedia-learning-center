@@ -1,5 +1,5 @@
-import type { SpaceRole, SpaceRoleToRole } from '@charmverse/core/prisma';
-import { prisma } from '@charmverse/core/prisma-client';
+import type { SpaceRole, SpaceRoleToRole } from '@KFMEDIA/core/prisma';
+import { prisma } from '@KFMEDIA/core/prisma-client';
 import { onError, onNoMatch, requireKeys, requireUser } from '@packages/lib/middleware';
 import { requirePaidPermissionsSubscription } from '@packages/lib/middleware/requirePaidPermissionsSubscription';
 import type { RoleAssignment, RoleWithMembers } from '@packages/lib/roles';

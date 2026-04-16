@@ -8,7 +8,7 @@ import { useRouter } from 'next/router';
 import { Button } from 'components/common/Button';
 import { ContextMenu } from 'components/common/ContextMenu';
 import Link from 'components/common/Link';
-import darkLogoImage from 'public/images/charmverse_logo_icon.png';
+import darkLogoImage from 'public/images/KFMEDIA_logo_icon.png';
 
 const LogoImage = styled(Image)`
   margin-left: -8px;
@@ -61,7 +61,7 @@ export function LoggedOutButtons() {
         variant='outlined'
         size='small'
         color='inherit'
-        href='https://charmverse.io'
+        href='https://KFMEDIA.io'
         sx={{ ml: 1 }}
         external // avoid space domain being added
       >

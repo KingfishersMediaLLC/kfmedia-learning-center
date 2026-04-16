@@ -63,7 +63,7 @@ function DisconnectedState({ connectDocusignAccount }: any) {
   return (
     <Box display='flex' flexDirection='column' gap={2}>
       <Typography variant='body2'>
-        Connect your Docusign account and allow users to sign documents inside CharmVerse.
+        Connect your Docusign account and allow users to sign documents inside KFMEDIA.
       </Typography>
       <Alert severity='info' sx={{ width: 'fit-content' }}>
         The connected Docusign user should be an admin of your company Docusign account.

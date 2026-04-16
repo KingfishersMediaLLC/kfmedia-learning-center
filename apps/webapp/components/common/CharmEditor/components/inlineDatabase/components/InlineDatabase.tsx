@@ -1,4 +1,4 @@
-import type { Page } from '@charmverse/core/prisma';
+import type { Page } from '@KFMEDIA/core/prisma';
 import { getBoards } from '@packages/databases/store/boards';
 import { initialDatabaseLoad } from '@packages/databases/store/databaseBlocksLoad';
 import { useAppDispatch, useAppSelector } from '@packages/databases/store/hooks';

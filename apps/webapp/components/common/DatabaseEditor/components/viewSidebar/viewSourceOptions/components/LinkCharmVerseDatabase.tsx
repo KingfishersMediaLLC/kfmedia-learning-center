@@ -21,7 +21,7 @@ type Props = {
   pages?: PageListItem[];
 };
 
-export function LinkCharmVerseDatabase(props: Props) {
+export function LinkKFMEDIADatabase(props: Props) {
   const { pages } = usePages();
   const [searchTerm, setSearchTerm] = useState('');
 

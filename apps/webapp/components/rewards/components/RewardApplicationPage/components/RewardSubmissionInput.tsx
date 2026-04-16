@@ -1,5 +1,5 @@
-import type { Application } from '@charmverse/core/prisma';
 import { yupResolver } from '@hookform/resolvers/yup';
+import type { Application } from '@KFMEDIA/core/prisma';
 import { Box, FormLabel } from '@mui/material';
 import Grid from '@mui/material/Grid';
 import InputLabel from '@mui/material/InputLabel';

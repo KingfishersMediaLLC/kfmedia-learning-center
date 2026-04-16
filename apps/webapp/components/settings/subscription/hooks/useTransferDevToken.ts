@@ -1,6 +1,6 @@
 import { getPublicClient } from '@packages/blockchain/getPublicClient';
 import { log } from '@packages/core/log';
-import { charmVerseBankAddress, devTokenAddress } from '@packages/subscriptions/constants';
+import { KFMEDIABankAddress, devTokenAddress } from '@packages/subscriptions/constants';
 import { useState } from 'react';
 import { erc20Abi, parseUnits } from 'viem';
 import { base } from 'viem/chains';
@@ -53,7 +53,7 @@ export function useTransferDevToken() {
         address: devTokenAddress,
         abi: erc20Abi,
         functionName: 'transfer',
-        args: [charmVerseBankAddress, transferredAmount]
+        args: [KFMEDIABankAddress, transferredAmount]
       });
 
       const publicClient = getPublicClient(base.id);

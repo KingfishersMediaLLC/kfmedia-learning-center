@@ -17,7 +17,7 @@ function PricingLink({ label }: LinkProps) {
     <Link
       sx={{ ...theme.typography.caption }}
       external
-      href='https://app.charmverse.io/charmverse/page-5371612014886058'
+      href='https://app.KFMEDIA.io/KFMEDIA/page-5371612014886058'
       target='_blank'
     >
       {label}
@@ -30,10 +30,10 @@ export function BlocksExplanation() {
     <Stack gap={2}>
       <Box>
         <Typography variant='body2'>
-          Free and forever access to CharmVerse Community Edition for usage under 30,000 blocks.
+          Free and forever access to KFMEDIA Community Edition for usage under 30,000 blocks.
           <ol>
             <li>Private content with role-based access control.</li>
-            <li>Custom domain - bring your URL to this CharmVerse space.</li>
+            <li>Custom domain - bring your URL to this KFMEDIA space.</li>
             <li>API access.</li>
           </ol>
         </Typography>
@@ -41,7 +41,7 @@ export function BlocksExplanation() {
       <Box>
         <Typography variant='body2'>
           Need more blocks? See{' '}
-          <Link href='https://www.charmverse.io/pricing' external target='_blank'>
+          <Link href='https://www.KFMEDIA.io/pricing' external target='_blank'>
             pricing details
           </Link>
         </Typography>
@@ -49,7 +49,7 @@ export function BlocksExplanation() {
       <Box>
         <Typography variant='h6'>What are blocks?</Typography>
         <Typography variant='body2'>
-          Every piece of content in CharmVerse is a block:
+          Every piece of content in KFMEDIA is a block:
           <ul>
             <li>Paragraphs, images, videos, and embeds are all individual blocks</li>
             <li>Forum posts, comments, proposals, and rewards may be comprised of multiple blocks.</li>
@@ -90,7 +90,7 @@ type Props = {
 
 export function BlocksExplanationModal({ onClose, open }: Props) {
   return (
-    <Modal open={open} onClose={onClose} size='large' title='CharmVerse Community Edition'>
+    <Modal open={open} onClose={onClose} size='large' title='KFMEDIA Community Edition'>
       <BlocksExplanation />
     </Modal>
   );

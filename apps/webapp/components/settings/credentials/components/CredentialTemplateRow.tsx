@@ -1,4 +1,4 @@
-import type { CredentialTemplate } from '@charmverse/core/prisma-client';
+import type { CredentialTemplate } from '@KFMEDIA/core/prisma-client';
 import DeleteOutlineOutlinedIcon from '@mui/icons-material/DeleteOutlineOutlined';
 import EditOutlinedIcon from '@mui/icons-material/EditOutlined';
 import MedalIcon from '@mui/icons-material/WorkspacePremium';

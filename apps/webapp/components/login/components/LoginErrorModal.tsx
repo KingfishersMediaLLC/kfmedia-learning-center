@@ -1,6 +1,6 @@
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
-import { charmverseDiscordInvite } from '@packages/config/constants';
+import { KFMEDIADiscordInvite } from '@packages/config/constants';
 import { log } from '@packages/core/log';
 import { useEffect } from 'react';
 
@@ -25,7 +25,7 @@ export function LoginErrorModal({ onClose, open }: Props) {
         <Typography variant='body1'>There was a problem with your account.</Typography>
         <Typography variant='body1'>
           Please contact our support on{' '}
-          <Link external href={charmverseDiscordInvite}>
+          <Link external href={KFMEDIADiscordInvite}>
             Discord
           </Link>
         </Typography>

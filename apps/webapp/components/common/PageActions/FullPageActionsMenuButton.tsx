@@ -1,4 +1,4 @@
-import type { PageType } from '@charmverse/core/prisma';
+import type { PageType } from '@KFMEDIA/core/prisma';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import { useTheme, Box, Tooltip, Popover, IconButton } from '@mui/material';
 import useMediaQuery from '@mui/material/useMediaQuery';

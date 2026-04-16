@@ -1,9 +1,9 @@
-import type { Space } from '@charmverse/core/prisma';
+import type { Space } from '@KFMEDIA/core/prisma';
+import { onError, onNoMatch, requireKeys } from '@packages/lib/middleware';
+import { withSessionRoute } from '@packages/lib/session/withSession';
 import type { NextApiRequest, NextApiResponse } from 'next';
 import nc from 'next-connect';
 
-import { onError, onNoMatch, requireKeys } from '@packages/lib/middleware';
-import { withSessionRoute } from '@packages/lib/session/withSession';
 import { getSpacesByName } from 'lib/spaces/getSpacesByName';
 
 const handler = nc<NextApiRequest, NextApiResponse>({ onError, onNoMatch });

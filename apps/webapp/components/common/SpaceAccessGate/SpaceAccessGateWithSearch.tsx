@@ -1,7 +1,6 @@
-import type { Space } from '@charmverse/core/prisma-client';
-import { styled } from '@mui/material';
+import type { Space } from '@KFMEDIA/core/prisma-client';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
-import { Autocomplete, IconButton, Popper, Stack, TextField, Typography, Box } from '@mui/material';
+import { styled, Autocomplete, IconButton, Popper, Stack, TextField, Typography, Box } from '@mui/material';
 import debounce from 'lodash/debounce';
 import { useRouter } from 'next/router';
 import type { ChangeEvent } from 'react';
@@ -15,7 +14,7 @@ import FieldLabel from '../form/FieldLabel';
 import { SpaceAccessGate } from './SpaceAccessGate';
 
 function stripUrlParts(maybeUrl: string) {
-  return maybeUrl.replace('https://app.charmverse.io/', '').replace('http://localhost:3000/', '').split('/')[0];
+  return maybeUrl.replace('https://app.KFMEDIA.io/', '').replace('http://localhost:3000/', '').split('/')[0];
 }
 
 const StyledPopper = styled(Popper)`

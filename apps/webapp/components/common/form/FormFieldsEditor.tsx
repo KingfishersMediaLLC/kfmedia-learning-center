@@ -1,4 +1,4 @@
-import type { FormFieldType } from '@charmverse/core/prisma-client';
+import type { FormFieldType } from '@KFMEDIA/core/prisma-client';
 import AddIcon from '@mui/icons-material/Add';
 import { Stack } from '@mui/material';
 import { emptyDocument } from '@packages/charmeditor/constants';

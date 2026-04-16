@@ -1,4 +1,4 @@
-import type { Space } from '@charmverse/core/prisma-client';
+import type { Space } from '@KFMEDIA/core/prisma-client';
 import { Alert } from '@mui/material';
 import { log } from '@packages/core/log';
 import type { FormFieldValue } from '@packages/lib/proposals/forms/interfaces';
@@ -182,7 +182,7 @@ function UserOnboardingDialog({
   let title = 'Edit your profile';
   if (initialStep) {
     if (currentStep === 'email_step') {
-      title = 'Welcome to CharmVerse';
+      title = 'Welcome to KFMEDIA';
     } else if (currentStep === 'profile_step') {
       // wrap hyphens with word joiner so that it doesn't wrap: https://en.wikipedia.org/wiki/Word_joiner
       title = `Welcome to ${space.name.replace(/-/g, '\ufeff-\ufeff')}! Set up your profile`;

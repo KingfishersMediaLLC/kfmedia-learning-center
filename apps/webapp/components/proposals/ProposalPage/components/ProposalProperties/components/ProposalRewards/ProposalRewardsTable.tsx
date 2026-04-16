@@ -1,6 +1,10 @@
-import type { ProposalReviewer } from '@charmverse/core/prisma';
+import type { ProposalReviewer } from '@KFMEDIA/core/prisma';
 import { DeleteOutlineOutlined as TrashIcon } from '@mui/icons-material';
 import { Box, ListItemIcon, ListItemText, MenuItem, Stack } from '@mui/material';
+import type { CardWithRelations } from '@packages/databases/card';
+import type { ProposalPendingReward } from '@packages/lib/proposals/interfaces';
+import { getProposalRewardsView } from '@packages/lib/rewards/blocks/views';
+import type { RewardType, RewardWithUsers } from '@packages/lib/rewards/interfaces';
 import { isTruthy } from '@packages/utils/types';
 import { useMemo } from 'react';
 
@@ -19,11 +23,7 @@ import { useCharmRouter } from 'hooks/useCharmRouter';
 import { useCurrentSpace } from 'hooks/useCurrentSpace';
 import { usePages } from 'hooks/usePages';
 import { useSpaceFeatures } from 'hooks/useSpaceFeatures';
-import type { CardWithRelations } from '@packages/databases/card';
 import type { PagesMap } from 'lib/pages';
-import type { ProposalPendingReward } from '@packages/lib/proposals/interfaces';
-import { getProposalRewardsView } from '@packages/lib/rewards/blocks/views';
-import type { RewardType, RewardWithUsers } from '@packages/lib/rewards/interfaces';
 
 import { useProposalRewards } from '../../hooks/useProposalRewards';
 

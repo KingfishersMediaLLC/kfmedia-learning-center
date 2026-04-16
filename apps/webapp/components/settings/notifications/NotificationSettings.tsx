@@ -1,5 +1,5 @@
-import type { Space } from '@charmverse/core/prisma-client';
 import { yupResolver } from '@hookform/resolvers/yup';
+import type { Space } from '@KFMEDIA/core/prisma-client';
 import { Box, Divider, Stack } from '@mui/material';
 import { charmBlue as blueColor } from '@packages/config/colors';
 import type { NotificationToggleOption, NotificationToggles } from '@packages/lib/notifications/notificationToggles';

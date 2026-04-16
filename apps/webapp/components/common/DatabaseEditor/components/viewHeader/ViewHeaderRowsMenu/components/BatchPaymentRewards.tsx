@@ -1,4 +1,4 @@
-import type { Application } from '@charmverse/core/prisma-client';
+import type { Application } from '@KFMEDIA/core/prisma-client';
 import PaymentIcon from '@mui/icons-material/Payment';
 import { Tooltip } from '@mui/material';
 import { getChainById } from '@packages/blockchain/connectors/chains';

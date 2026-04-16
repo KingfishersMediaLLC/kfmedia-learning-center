@@ -1,7 +1,8 @@
-import type { Space, KycOption } from '@charmverse/core/prisma-client';
 import { yupResolver } from '@hookform/resolvers/yup';
+import type { Space, KycOption } from '@KFMEDIA/core/prisma-client';
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
+import type { KycCredentials } from '@packages/lib/kyc/getKycCredentials';
 import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import * as yup from 'yup';
@@ -11,7 +12,6 @@ import { useUpdateSpace } from 'charmClient/hooks/spaces';
 import { Button } from 'components/common/Button';
 import { useConfirmationModal } from 'hooks/useConfirmationModal';
 import { useCurrentSpace } from 'hooks/useCurrentSpace';
-import type { KycCredentials } from '@packages/lib/kyc/getKycCredentials';
 
 import { IntegrationContainer } from '../IntegrationContainer';
 

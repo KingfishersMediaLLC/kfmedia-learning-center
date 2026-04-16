@@ -1,5 +1,5 @@
-import type { PostCategory } from '@charmverse/core/prisma';
 import { yupResolver } from '@hookform/resolvers/yup';
+import type { PostCategory } from '@KFMEDIA/core/prisma';
 import { Box } from '@mui/material';
 import InputLabel from '@mui/material/InputLabel';
 import Stack from '@mui/material/Stack';

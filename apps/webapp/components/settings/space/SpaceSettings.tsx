@@ -1,5 +1,5 @@
-import type { IdentityType, Space } from '@charmverse/core/prisma';
 import { yupResolver } from '@hookform/resolvers/yup';
+import type { IdentityType, Space } from '@KFMEDIA/core/prisma';
 import { Box, FormHelperText, Grid, InputAdornment, MenuItem, Stack, TextField, Typography } from '@mui/material';
 import type { Feature } from '@packages/features/constants';
 import { getSpaceUrl, getSubdomainPath } from '@packages/lib/utils/browser';
@@ -260,7 +260,7 @@ export function SpaceSettings({
                     {...register('domain')}
                     disabled={!isAdmin}
                     InputProps={{
-                      startAdornment: <InputAdornment position='start'>https://app.charmverse.io/</InputAdornment>
+                      startAdornment: <InputAdornment position='start'>https://app.KFMEDIA.io/</InputAdornment>
                     }}
                     fullWidth
                     error={!!errors.domain}

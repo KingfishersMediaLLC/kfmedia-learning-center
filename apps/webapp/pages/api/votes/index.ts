@@ -1,5 +1,5 @@
-import type { User } from '@charmverse/core/prisma-client';
-import { prisma } from '@charmverse/core/prisma-client';
+import type { User } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@KFMEDIA/core/prisma-client';
 import { log } from '@packages/core/log';
 import { onError, onNoMatch, requireKeys, requireUser } from '@packages/lib/middleware';
 import { mapNotificationActor } from '@packages/lib/notifications/mapNotificationActor';
@@ -149,7 +149,7 @@ async function createVote(req: NextApiRequest, res: NextApiResponse<ExtendedVote
       pageId,
       spaceId: vote.spaceId,
       resourceId: vote.id,
-      platform: 'charmverse'
+      platform: 'KFMEDIA'
     });
   } else if (pageId) {
     trackUserAction('poll_created', {

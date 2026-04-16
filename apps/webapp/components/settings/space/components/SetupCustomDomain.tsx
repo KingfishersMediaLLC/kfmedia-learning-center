@@ -1,4 +1,4 @@
-import type { Space } from '@charmverse/core/prisma';
+import type { Space } from '@KFMEDIA/core/prisma';
 import CheckCircleOutlineOutlinedIcon from '@mui/icons-material/CheckCircleOutlineOutlined';
 import ErrorOutlineOutlinedIcon from '@mui/icons-material/ErrorOutlineOutlined';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
@@ -33,8 +33,8 @@ import { useIsAdmin } from 'hooks/useIsAdmin';
 
 import type { FormValues } from '../SpaceSettings';
 
-const CNAME_INSTRUCTIONS_URL = 'https://app.charmverse.io/charmverse/page-7475001106586148';
-const CAA_INSTRUCTIONS_URL = 'https://app.charmverse.io/charmverse/custom-domain-troubleshooting-16172974411857632';
+const CNAME_INSTRUCTIONS_URL = 'https://app.KFMEDIA.io/KFMEDIA/page-7475001106586148';
+const CAA_INSTRUCTIONS_URL = 'https://app.KFMEDIA.io/KFMEDIA/custom-domain-troubleshooting-16172974411857632';
 
 export function SetupCustomDomain({
   space,
@@ -133,7 +133,7 @@ export function SetupCustomDomain({
                 <>
                   <Typography variant='body2'>
                     In order to access space from you domain, you will need to setup two CNAME records in your DNS
-                    Provider dashboard. One is to redirect your domain to CharmVerse, and the other is to verify your
+                    Provider dashboard. One is to redirect your domain to KFMEDIA, and the other is to verify your
                     domain ownership.
                   </Typography>
 
@@ -161,7 +161,7 @@ export function SetupCustomDomain({
                           </TableCell>
                           <TableCell>
                             <Stack direction='row' alignContent='center' gap={1} justifyContent='space-between'>
-                              <LabelWithCopy label={`${space.domain}.charmverse.io`} />
+                              <LabelWithCopy label={`${space.domain}.KFMEDIA.io`} />
 
                               {customDomainVerification?.isRedirectVerified ? (
                                 <Tooltip title='Redirect record verified'>

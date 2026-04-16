@@ -1,11 +1,11 @@
 import env from '@beam-australia/react-env';
-import type { SpaceSubscriptionTier } from '@charmverse/core/prisma';
 import type { EvmTransaction } from '@decent.xyz/box-common';
 import { BoxHooksContextProvider } from '@decent.xyz/box-hooks';
+import type { SpaceSubscriptionTier } from '@KFMEDIA/core/prisma';
 import { Launch as LaunchIcon } from '@mui/icons-material';
 import { Alert, Box, Divider, Link, Stack, TextField, Typography } from '@mui/material';
 import { log } from '@packages/core/log';
-import { charmVerseBankAddress, uniswapSwapUrl } from '@packages/subscriptions/constants';
+import { KFMEDIABankAddress, uniswapSwapUrl } from '@packages/subscriptions/constants';
 import { getExpiresAt } from '@packages/subscriptions/getExpiresAt';
 import { shortenHex } from '@packages/utils/blockchain';
 import Image from 'next/image';
@@ -83,7 +83,7 @@ export function SendDevToSpaceForm({
 
   const { decentSdkError, decentTransactionInfo } = useDecentV4Transaction({
     address: address as Address,
-    receiverAddress: charmVerseBankAddress,
+    receiverAddress: KFMEDIABankAddress,
     sourceChainId: selectedPaymentOption.chainId,
     sourceToken: selectedPaymentOption.address,
     enabled: !!(selectedPaymentOption.currency !== 'DEV' && selectedTokenBalance),

@@ -1,6 +1,6 @@
-import type { PageType } from '@charmverse/core/prisma-client';
-import { styled } from '@mui/material';
+import type { PageType } from '@KFMEDIA/core/prisma-client';
 import CircleIcon from '@mui/icons-material/Circle';
+import { styled } from '@mui/material';
 import Alert from '@mui/material/Alert';
 import Box from '@mui/material/Box';
 import MuiButton from '@mui/material/Button';
@@ -10,6 +10,7 @@ import Input from '@mui/material/OutlinedInput';
 import Switch from '@mui/material/Switch';
 import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
+import { getAbsolutePath } from '@packages/lib/utils/browser';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
@@ -18,7 +19,6 @@ import { useGetPageMeta } from 'charmClient/hooks/pages';
 import { Button } from 'components/common/Button';
 import { UpgradeChip, UpgradeWrapper } from 'components/settings/subscription/UpgradeWrapper';
 import { useCurrentSpace } from 'hooks/useCurrentSpace';
-import { getAbsolutePath } from '@packages/lib/utils/browser';
 
 const StyledInput = styled(Input)`
   font-size: 0.8em;

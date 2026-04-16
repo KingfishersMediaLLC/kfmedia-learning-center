@@ -1,5 +1,5 @@
-import type { BountyStatus } from '@charmverse/core/prisma';
-import { prisma } from '@charmverse/core/prisma-client';
+import type { BountyStatus } from '@KFMEDIA/core/prisma';
+import { prisma } from '@KFMEDIA/core/prisma-client';
 import { generateMarkdown } from '@packages/bangleeditor/markdown/generateMarkdown';
 import { resolveENSName } from '@packages/blockchain/getENSName';
 import { isTruthy } from '@packages/utils/types';
@@ -74,7 +74,7 @@ handler.get(getRewards);
  *          example: Social media boost
  *        url:
  *          type: string
- *          example: https://app.charmverse.io/my-workspace/getting-started-5985679461310778
+ *          example: https://app.KFMEDIA.io/my-workspace/getting-started-5985679461310778
  *
  */
 export interface PublicApiReward {

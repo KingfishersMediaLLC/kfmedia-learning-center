@@ -1,6 +1,7 @@
-import type { MemberPropertyType } from '@charmverse/core/prisma-client';
+import type { MemberPropertyType } from '@KFMEDIA/core/prisma-client';
 import { Edit as EditIcon } from '@mui/icons-material';
 import { IconButton, Tooltip } from '@mui/material';
+import type { MemberPropertyValuesBySpace } from '@packages/lib/members/interfaces';
 import { useState } from 'react';
 
 import WorkspaceAvatar from 'components/common/PageLayout/components/Sidebar/components/WorkspaceAvatar';
@@ -8,7 +9,6 @@ import { useCurrentSpace } from 'hooks/useCurrentSpace';
 import { useMemberProperties } from 'hooks/useMemberProperties';
 import { useMembers } from 'hooks/useMembers';
 import { useUser } from 'hooks/useUser';
-import type { MemberPropertyValuesBySpace } from '@packages/lib/members/interfaces';
 
 import { ProfileWidget } from '../ProfileWidget';
 

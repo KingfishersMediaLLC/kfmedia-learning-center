@@ -1,4 +1,4 @@
-import type { IdentityType } from '@charmverse/core/prisma-client';
+import type { IdentityType } from '@KFMEDIA/core/prisma-client';
 import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 import { Box, MenuItem, Select, Stack, Typography } from '@mui/material';
 import { hasPrimaryMemberIdentityAccess } from '@packages/subscriptions/featureRestrictions';

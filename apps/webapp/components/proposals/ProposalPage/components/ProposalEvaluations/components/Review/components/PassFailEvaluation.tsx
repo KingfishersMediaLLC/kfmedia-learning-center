@@ -1,4 +1,4 @@
-import type { ProposalEvaluationResult } from '@charmverse/core/prisma-client';
+import type { ProposalEvaluationResult } from '@KFMEDIA/core/prisma-client';
 import { ThumbUpOutlined as ApprovedIcon, HighlightOff as RejectedIcon } from '@mui/icons-material';
 import CommentOutlinedIcon from '@mui/icons-material/CommentOutlined';
 import {

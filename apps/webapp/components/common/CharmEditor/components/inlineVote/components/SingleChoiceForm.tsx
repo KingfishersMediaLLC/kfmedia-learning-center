@@ -1,8 +1,7 @@
-import type { VoteOptions } from '@charmverse/core/prisma-client';
+import type { VoteOptions } from '@KFMEDIA/core/prisma-client';
 import { Box, FormControlLabel, Radio, RadioGroup, Typography } from '@mui/material';
-import millify from 'millify';
-
 import { percent } from '@packages/lib/utils/numbers';
+import millify from 'millify';
 
 type Props = {
   value: string | undefined | null;

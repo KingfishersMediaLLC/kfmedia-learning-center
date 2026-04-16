@@ -1,4 +1,4 @@
-import type { SpaceOperation } from '@charmverse/core/prisma';
+import type { SpaceOperation } from '@KFMEDIA/core/prisma';
 import { Box, Divider, Grid, Typography } from '@mui/material';
 import type { PostCategoryPermissionAssignment } from '@packages/core/permissions';
 import type { AssignablePermissionGroups } from '@packages/lib/permissions/interfaces';

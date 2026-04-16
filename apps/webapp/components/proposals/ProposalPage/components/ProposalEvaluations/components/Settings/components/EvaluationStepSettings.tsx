@@ -1,4 +1,4 @@
-import type { ProposalEvaluation, ProposalEvaluationType, ProposalSystemRole } from '@charmverse/core/prisma';
+import type { ProposalEvaluation, ProposalEvaluationType, ProposalSystemRole } from '@KFMEDIA/core/prisma';
 import { Box, FormLabel, Switch, TextField, Typography } from '@mui/material';
 import type { ProposalEvaluationInput } from '@packages/lib/proposals/createProposal';
 import type { ConcealableEvaluationType, PopulatedEvaluation } from '@packages/lib/proposals/interfaces';

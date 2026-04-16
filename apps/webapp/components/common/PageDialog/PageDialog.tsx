@@ -1,4 +1,4 @@
-import type { Page } from '@charmverse/core/prisma';
+import type { Page } from '@KFMEDIA/core/prisma';
 import OpenInFullIcon from '@mui/icons-material/OpenInFull';
 import { Box } from '@mui/material';
 import { log } from '@packages/core/log';

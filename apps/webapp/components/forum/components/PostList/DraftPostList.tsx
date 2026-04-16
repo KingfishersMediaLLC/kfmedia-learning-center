@@ -1,12 +1,12 @@
-import type { Post } from '@charmverse/core/prisma';
+import type { Post } from '@KFMEDIA/core/prisma';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 import MessageOutlinedIcon from '@mui/icons-material/MessageOutlined';
 import { List, ListItemButton, ListItemIcon, ListItemText, Stack, Typography } from '@mui/material';
+import { relativeTime } from '@packages/lib/utils/dates';
 import type { KeyedMutator } from 'swr';
 
 import charmClient from 'charmClient';
 import { useForumCategories } from 'hooks/useForumCategories';
-import { relativeTime } from '@packages/lib/utils/dates';
 
 import { usePostDialog } from '../PostDialog/hooks/usePostDialog';
 

@@ -1,4 +1,4 @@
-import type { IdentityType } from '@charmverse/core/prisma-client';
+import type { IdentityType } from '@KFMEDIA/core/prisma-client';
 import { InvalidInputError } from '@packages/core/errors';
 import { log } from '@packages/core/log';
 import { onError, onNoMatch, requireKeys, requireUser } from '@packages/lib/middleware';

@@ -1,5 +1,4 @@
-import type { ApplicationStatus } from '@charmverse/core/prisma';
-import { styled } from '@mui/material';
+import type { ApplicationStatus } from '@KFMEDIA/core/prisma';
 import AccessTimeOutlinedIcon from '@mui/icons-material/AccessTimeOutlined';
 import AssignmentIndIcon from '@mui/icons-material/AssignmentInd';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
@@ -7,6 +6,7 @@ import FilledPageIcon from '@mui/icons-material/DescriptionOutlined';
 import DoDisturbOutlinedIcon from '@mui/icons-material/DoDisturbOutlined';
 import ModeStandbyIcon from '@mui/icons-material/ModeStandby';
 import PaidIcon from '@mui/icons-material/Paid';
+import { styled } from '@mui/material';
 import type { SvgIconTypeMap, SxProps } from '@mui/material';
 import type { ChipProps } from '@mui/material/Chip';
 import Chip from '@mui/material/Chip';

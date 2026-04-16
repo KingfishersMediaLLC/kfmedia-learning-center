@@ -1,9 +1,9 @@
-import type { ProposalRubricCriteria } from '@charmverse/core/prisma';
-import { styled } from '@mui/material';
+import type { ProposalRubricCriteria } from '@KFMEDIA/core/prisma';
 import { ArrowForwardIosSharp, Check } from '@mui/icons-material';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import type { AccordionProps, AccordionSummaryProps } from '@mui/material';
 import {
+  styled,
   Box,
   ListItemIcon,
   Menu,
@@ -13,15 +13,15 @@ import {
   AccordionSummary as MuiAccordionSummary,
   Accordion as MuiAccordion
 } from '@mui/material';
+import type { PopulatedEvaluation } from '@packages/lib/proposals/interfaces';
+import { aggregateResults } from '@packages/lib/proposals/rubric/aggregateResults';
+import type { ProposalRubricCriteriaAnswerWithTypedResponse } from '@packages/lib/proposals/rubric/interfaces';
+import { isNumber } from '@packages/lib/utils/numbers';
 import { mean, sum } from 'lodash';
 import { useEffect, useState } from 'react';
 
 import { Button } from 'components/common/Button';
 import UserDisplay from 'components/common/UserDisplay';
-import type { PopulatedEvaluation } from '@packages/lib/proposals/interfaces';
-import { aggregateResults } from '@packages/lib/proposals/rubric/aggregateResults';
-import type { ProposalRubricCriteriaAnswerWithTypedResponse } from '@packages/lib/proposals/rubric/interfaces';
-import { isNumber } from '@packages/lib/utils/numbers';
 
 type Props = {
   answers?: ProposalRubricCriteriaAnswerWithTypedResponse[];

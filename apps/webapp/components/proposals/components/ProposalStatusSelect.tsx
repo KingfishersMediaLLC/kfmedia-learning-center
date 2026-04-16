@@ -1,18 +1,18 @@
-import type { ProposalEvaluationResult } from '@charmverse/core/prisma-client';
-import { getFeatureTitle } from '@packages/features/getFeatureTitle';
-import { useMemo } from 'react';
-
-import { TagSelect } from 'components/common/DatabaseEditor/components/properties/TagSelect/TagSelect';
-import type { PropertyValueDisplayType } from 'components/common/DatabaseEditor/interfaces';
+import type { ProposalEvaluationResult } from '@KFMEDIA/core/prisma-client';
 import type { IPropertyOption } from '@packages/databases/board';
 import {
   EVALUATION_STATUS_LABELS,
   EVALUATION_STATUS_VERB_LABELS,
   proposalStatusColors
 } from '@packages/databases/proposalDbProperties';
+import { getFeatureTitle } from '@packages/features/getFeatureTitle';
 import { getProposalEvaluationStatus } from '@packages/lib/proposals/getProposalEvaluationStatus';
 import type { ProposalWithUsersLite } from '@packages/lib/proposals/getProposals';
 import type { ProposalEvaluationStatus } from '@packages/lib/proposals/interfaces';
+import { useMemo } from 'react';
+
+import { TagSelect } from 'components/common/DatabaseEditor/components/properties/TagSelect/TagSelect';
+import type { PropertyValueDisplayType } from 'components/common/DatabaseEditor/interfaces';
 
 import { useBatchUpdateProposalStatusOrStep } from '../hooks/useBatchUpdateProposalStatusOrStep';
 

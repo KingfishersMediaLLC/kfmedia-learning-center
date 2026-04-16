@@ -1,14 +1,14 @@
-import type { Space } from '@charmverse/core/prisma';
+import type { Space } from '@KFMEDIA/core/prisma';
 import { Badge } from '@mui/material';
 import type { MenuItemProps } from '@mui/material/MenuItem';
 import MenuItem from '@mui/material/MenuItem';
 import Typography from '@mui/material/Typography';
+import type { Notification } from '@packages/lib/notifications/interfaces';
+import { getSpaceUrl } from '@packages/lib/utils/browser';
 import NextLink from 'next/link';
 
 import { DraggableListItem } from 'components/common/DraggableListItem';
 import { useCurrentSpace } from 'hooks/useCurrentSpace';
-import type { Notification } from '@packages/lib/notifications/interfaces';
-import { getSpaceUrl } from '@packages/lib/utils/browser';
 
 import WorkspaceAvatar from './WorkspaceAvatar';
 

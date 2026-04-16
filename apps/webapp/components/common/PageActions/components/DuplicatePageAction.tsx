@@ -1,4 +1,4 @@
-import type { PageType } from '@charmverse/core/prisma';
+import type { PageType } from '@KFMEDIA/core/prisma';
 import FileCopyOutlinedIcon from '@mui/icons-material/FileCopyOutlined';
 import { ListItemIcon, ListItemText, MenuItem, Tooltip } from '@mui/material';
 import type { PagePermissionFlags } from '@packages/core/permissions';

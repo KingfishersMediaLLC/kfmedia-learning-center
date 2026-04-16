@@ -1,5 +1,5 @@
-import type { User } from '@charmverse/core/prisma';
 import { yupResolver } from '@hookform/resolvers/yup';
+import type { User } from '@KFMEDIA/core/prisma';
 import LaunchIcon from '@mui/icons-material/Launch';
 import {
   useTheme,
@@ -129,14 +129,14 @@ export function AccountPreferences() {
                   onChange={onChange}
                 />
               }
-              label='Receive email updates on mentions, comments, post and other things in CharmVerse.'
+              label='Receive email updates on mentions, comments, post and other things in KFMEDIA.'
             />
             <FormControlLabel
               disabled={!user?.email || isMutating}
               control={
                 <Checkbox {...register('emailNewsletter')} checked={!!user?.emailNewsletter} onChange={onChange} />
               }
-              label='Receive tips and examples how to use CharmVerse.'
+              label='Receive tips and examples how to use KFMEDIA.'
             />
           </FormGroup>
           <Button

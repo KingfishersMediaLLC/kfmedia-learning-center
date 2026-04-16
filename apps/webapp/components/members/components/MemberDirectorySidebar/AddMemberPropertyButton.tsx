@@ -1,7 +1,9 @@
-import type { MemberPropertyType } from '@charmverse/core/prisma';
+import type { MemberPropertyType } from '@KFMEDIA/core/prisma';
 import AddIcon from '@mui/icons-material/Add';
 import { Button, Menu, MenuItem, Stack, TextField } from '@mui/material';
+import { MEMBER_PROPERTY_CONFIG } from '@packages/lib/members/constants';
 import type { SelectOptionType } from '@packages/lib/proposals/forms/interfaces';
+import { isReturnKey } from '@packages/lib/utils/react';
 import { bindMenu, usePopupState } from 'material-ui-popup-state/hooks';
 import { useEffect, useMemo, useState } from 'react';
 
@@ -11,8 +13,6 @@ import Modal from 'components/common/Modal';
 import { useIsAdmin } from 'hooks/useIsAdmin';
 import { useMemberProperties } from 'hooks/useMemberProperties';
 import { useMembers } from 'hooks/useMembers';
-import { MEMBER_PROPERTY_CONFIG } from '@packages/lib/members/constants';
-import { isReturnKey } from '@packages/lib/utils/react';
 
 import { MemberPropertyItem } from './MemberPropertyItem';
 

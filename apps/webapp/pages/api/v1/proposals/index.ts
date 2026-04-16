@@ -1,5 +1,5 @@
-import type { ProposalEvaluationType, ProposalStatus } from '@charmverse/core/prisma';
-import { prisma } from '@charmverse/core/prisma-client';
+import type { ProposalEvaluationType, ProposalStatus } from '@KFMEDIA/core/prisma';
+import { prisma } from '@KFMEDIA/core/prisma-client';
 import { generateMarkdown } from '@packages/bangleeditor/markdown/generateMarkdown';
 import { getCurrentEvaluation } from '@packages/core/proposals';
 import type { ProposalEvaluationResultExtended } from '@packages/lib/proposals/interfaces';
@@ -83,7 +83,7 @@ type ProposalReviewer = {
  *          example: EIP-4361 Sign in with Ethereum
  *        url:
  *          type: string
- *          example: https://app.charmverse.io/charmverse/proposals?id=3334afc4-5f0a-4d3c-8889-56fcc2b2ed8d
+ *          example: https://app.KFMEDIA.io/KFMEDIA/proposals?id=3334afc4-5f0a-4d3c-8889-56fcc2b2ed8d
  *        voteOptions:
  *          type: array
  *          items:

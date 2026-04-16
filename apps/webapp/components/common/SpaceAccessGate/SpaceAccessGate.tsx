@@ -1,4 +1,4 @@
-import type { Space } from '@charmverse/core/prisma-client';
+import type { Space } from '@KFMEDIA/core/prisma-client';
 import { Alert, Box, Divider, Typography } from '@mui/material';
 import type { PageContent } from '@packages/charmeditor/interfaces';
 import { Editor } from '@packages/charmeditor/ui';

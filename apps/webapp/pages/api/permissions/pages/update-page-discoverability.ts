@@ -1,4 +1,4 @@
-import { prisma } from '@charmverse/core/prisma-client';
+import { prisma } from '@KFMEDIA/core/prisma-client';
 import type { UpdatePagePermissionDiscoverabilityRequest } from '@packages/core/pages';
 import { onError, onNoMatch, requireKeys } from '@packages/lib/middleware';
 import { requirePaidPermissionsSubscription } from '@packages/lib/middleware/requirePaidPermissionsSubscription';

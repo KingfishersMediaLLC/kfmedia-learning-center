@@ -1,4 +1,4 @@
-import type { PageType } from '@charmverse/core/prisma';
+import type { PageType } from '@KFMEDIA/core/prisma';
 
 import { documentTypes } from 'components/common/PageActions/components/DocumentPageActionList';
 

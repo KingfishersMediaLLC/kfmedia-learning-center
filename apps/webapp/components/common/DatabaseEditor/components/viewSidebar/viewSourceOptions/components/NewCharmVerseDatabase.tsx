@@ -1,13 +1,12 @@
 import AddIcon from '@mui/icons-material/Add';
 import { ListItemIcon, MenuItem, Typography } from '@mui/material';
-
 import type { BoardView } from '@packages/databases/boardView';
 
 export type NewDatabaseSourceProps = {
   onCreateDatabase: () => Promise<BoardView>;
 };
 
-export function NewCharmVerseDatabase({ onCreateDatabase }: NewDatabaseSourceProps) {
+export function NewKFMEDIADatabase({ onCreateDatabase }: NewDatabaseSourceProps) {
   return (
     <MenuItem onClick={() => onCreateDatabase()}>
       <ListItemIcon>

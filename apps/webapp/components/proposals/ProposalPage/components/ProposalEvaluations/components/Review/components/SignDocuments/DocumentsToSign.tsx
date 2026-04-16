@@ -1,4 +1,4 @@
-import type { DocumentSigner } from '@charmverse/core/prisma';
+import type { DocumentSigner } from '@KFMEDIA/core/prisma';
 import { Check as CheckIcon } from '@mui/icons-material';
 import DeleteOutlineOutlinedIcon from '@mui/icons-material/DeleteOutlineOutlined';
 import { Box, Grid, Stack, Tooltip, Typography } from '@mui/material';

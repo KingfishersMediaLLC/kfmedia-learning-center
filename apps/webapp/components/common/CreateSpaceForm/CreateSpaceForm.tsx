@@ -1,5 +1,5 @@
-import type { Space } from '@charmverse/core/prisma';
 import { yupResolver } from '@hookform/resolvers/yup';
+import type { Space } from '@KFMEDIA/core/prisma';
 import { Refresh as RefreshIcon } from '@mui/icons-material';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import { styled, IconButton, InputAdornment, Tooltip } from '@mui/material';

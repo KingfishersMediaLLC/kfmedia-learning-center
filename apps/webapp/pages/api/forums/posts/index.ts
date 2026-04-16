@@ -1,4 +1,4 @@
-import type { Post } from '@charmverse/core/prisma';
+import type { Post } from '@KFMEDIA/core/prisma';
 import type { PageContent } from '@packages/charmeditor/interfaces';
 import type { CreateForumPostInput } from '@packages/lib/forums/posts/createForumPost';
 import { createForumPost, trackCreateForumPostEvent } from '@packages/lib/forums/posts/createForumPost';

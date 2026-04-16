@@ -1,4 +1,4 @@
-import { prisma } from '@charmverse/core/prisma-client';
+import { prisma } from '@KFMEDIA/core/prisma-client';
 import { UnauthorisedActionError } from '@packages/core/errors';
 import { prismaToBlock } from '@packages/databases/block';
 import type { SyncRelationPropertyPayload } from '@packages/databases/relationProperty/syncRelationProperty';

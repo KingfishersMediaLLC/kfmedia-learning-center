@@ -1,6 +1,6 @@
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import { charmverseDiscordInvite } from '@packages/config/constants';
+import { KFMEDIADiscordInvite } from '@packages/config/constants';
 import { useForm } from 'react-hook-form';
 
 import { Button } from 'components/common/Button';
@@ -55,8 +55,8 @@ export function ConfirmRecoveryCode({ onSubmit, errorMessage, loading, changeTyp
             Use authenticator app
           </Button>
         )}
-        <Link href={charmverseDiscordInvite} variant='body2' external target='_blank'>
-          Contact Charmverse Support
+        <Link href={KFMEDIADiscordInvite} variant='body2' external target='_blank'>
+          Contact KFMEDIA Support
         </Link>
       </Box>
       <Button

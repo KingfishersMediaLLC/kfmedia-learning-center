@@ -132,8 +132,8 @@ describe('Database options util', () => {
       ],
       'e800cd89-8ab4-4630-8794-68f5e0b35c09': '8h5t73b6-1d7d-0j6f-a3c4-ef27e624185b',
       'a6930408-89d0-4f08-a96b-b0ae9db922ed': '{"from":1639692000000}',
-      '612afba2-a56a-4009-a36b-16752045b7f6': 'www.charmverse.io',
-      '076a0k6g-a56a-0273-a36b-18765045b7f6': 'test@charmversetest.io',
+      '612afba2-a56a-4009-a36b-16752045b7f6': 'www.KFMEDIA.io',
+      '076a0k6g-a56a-0273-a36b-18765045b7f6': 'test@KFMEDIAtest.io',
       '7yh79309-a56a-1356-a36b-16752045b0k8': 'true'
     };
 

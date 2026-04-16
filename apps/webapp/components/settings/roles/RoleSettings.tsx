@@ -1,4 +1,4 @@
-import type { Space } from '@charmverse/core/prisma';
+import type { Space } from '@KFMEDIA/core/prisma';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { Box, CircularProgress, Divider, Menu, Typography, Alert } from '@mui/material';
 import { scrollIntoView } from '@packages/lib/utils/browser';

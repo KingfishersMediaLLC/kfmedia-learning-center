@@ -1,5 +1,5 @@
-import type { DiscordUser } from '@charmverse/core/prisma';
-import { prisma } from '@charmverse/core/prisma-client';
+import type { DiscordUser } from '@KFMEDIA/core/prisma';
+import { prisma } from '@KFMEDIA/core/prisma-client';
 import { log } from '@packages/core/log';
 import { assignRolesFromDiscord } from '@packages/lib/discord/assignRoles';
 import type { DiscordAccount } from '@packages/lib/discord/client/getDiscordAccount';
@@ -123,7 +123,7 @@ async function connectDiscord(req: NextApiRequest, res: NextApiResponse<ConnectD
     log.warn('Error while creating Discord record', {
       error
     });
-    // If the discord user is already connected to a charmverse account this code will be run
+    // If the discord user is already connected to a KFMEDIA account this code will be run
     res.status(400).json({
       error: 'Connection to Discord failed.'
     });

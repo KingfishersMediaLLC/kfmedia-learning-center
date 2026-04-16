@@ -1,16 +1,16 @@
-import type { BountyStatus, Prisma } from '@charmverse/core/prisma-client';
+import type { BountyStatus, Prisma } from '@KFMEDIA/core/prisma-client';
 import { KeyboardArrowDown } from '@mui/icons-material';
 import { Box, Collapse, Divider, IconButton, Stack, Typography } from '@mui/material';
-import { isTruthy } from '@packages/utils/types';
-import { useState } from 'react';
-
-import { useCurrentSpace } from 'hooks/useCurrentSpace';
 import { REWARD_PROPOSAL_LINK } from '@packages/lib/rewards/blocks/constants';
 import type { RewardPropertiesField } from '@packages/lib/rewards/blocks/interfaces';
 import type { RewardTemplate } from '@packages/lib/rewards/getRewardTemplate';
 import type { RewardWithUsers } from '@packages/lib/rewards/interfaces';
 import type { UpdateableRewardFields } from '@packages/lib/rewards/updateRewardSettings';
 import { getAbsolutePath } from '@packages/lib/utils/browser';
+import { isTruthy } from '@packages/utils/types';
+import { useState } from 'react';
+
+import { useCurrentSpace } from 'hooks/useCurrentSpace';
 
 import type { UpdateableRewardFieldsWithType } from '../../hooks/useNewReward';
 import type { BoardReward } from '../../hooks/useRewardsBoardAdapter';

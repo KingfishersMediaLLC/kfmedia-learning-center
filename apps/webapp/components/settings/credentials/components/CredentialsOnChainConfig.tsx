@@ -1,11 +1,11 @@
-import type { Space } from '@charmverse/core/prisma';
+import type { Space } from '@KFMEDIA/core/prisma';
 import { Box, FormControlLabel, Grid, Stack, Switch, TextField } from '@mui/material';
 import { easSchemaChains, easSchemaMainnetChains } from '@packages/credentials/connectors';
 import { isAddress } from 'viem';
 
 import { InputSearchBlockchain } from 'components/common/form/InputSearchBlockchain';
 import { Typography } from 'components/common/Typography';
-import { useIsCharmverseSpace } from 'hooks/useIsCharmverseSpace';
+import { useIsKFMEDIASpace } from 'hooks/useIsKFMEDIASpace';
 
 export type UpdateableCredentialProps = Pick<
   Space,
@@ -27,7 +27,7 @@ export function CredentialsOnChainConfig({
   const validAddress = !credentialsWallet || isAddress(credentialsWallet);
 
   // Enable testnets for test space
-  const showTestnets = useIsCharmverseSpace();
+  const showTestnets = useIsKFMEDIASpace();
 
   return (
     <Grid container display='flex' justifyContent='flex-start' alignItems='center' gap={2}>

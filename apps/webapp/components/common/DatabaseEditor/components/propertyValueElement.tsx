@@ -1,4 +1,4 @@
-import type { ApplicationStatus, ProposalSystemRole } from '@charmverse/core/prisma';
+import type { ApplicationStatus, ProposalSystemRole } from '@KFMEDIA/core/prisma';
 import PersonIcon from '@mui/icons-material/Person';
 import { Box, Stack } from '@mui/material';
 import Tooltip from '@mui/material/Tooltip';

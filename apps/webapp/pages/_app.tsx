@@ -170,7 +170,7 @@ export default function App({ Component, pageProps, router }: AppPropsWithLayout
                           <ErrorBoundary>
                             <Snackbar
                               isOpen={isOldBuild}
-                              message='New CharmVerse platform update available. Please refresh.'
+                              message='New KFMEDIA Learning Center platform update available. Please refresh.'
                               actions={[
                                 <IconButton key='reload' onClick={() => window.location.reload()} color='inherit'>
                                   <RefreshIcon fontSize='small' />

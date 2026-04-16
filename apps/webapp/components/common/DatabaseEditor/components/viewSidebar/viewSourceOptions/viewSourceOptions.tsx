@@ -1,4 +1,4 @@
-import type { ApiPageKey } from '@charmverse/core/prisma';
+import type { ApiPageKey } from '@KFMEDIA/core/prisma';
 import AddCircleIcon from '@mui/icons-material/AddCircleOutline';
 import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
 import TaskOutlinedIcon from '@mui/icons-material/TaskOutlined';
@@ -26,8 +26,8 @@ import { useIsAdmin } from 'hooks/useIsAdmin';
 import { DatabaseSidebarHeader } from '../databaseSidebarHeader';
 
 import { GoogleFormsSource } from './components/GoogleForms/GoogleFormsSource';
-import { LinkCharmVerseDatabase } from './components/LinkCharmVerseDatabase';
-import { NewCharmVerseDatabase } from './components/NewCharmVerseDatabase';
+import { LinkKFMEDIADatabase } from './components/LinkKFMEDIADatabase';
+import { NewKFMEDIADatabase } from './components/NewKFMEDIADatabase';
 import { ProposalSourcePropertiesDialog } from './components/ProposalSourceProperties/ProposalSourcePropertiesDialog';
 import { SourceType } from './components/viewSourceType';
 import { useSourceOptions } from './useSourceOptions';
@@ -173,7 +173,7 @@ export function ViewSourceOptions(props: ViewSourceOptionsProps) {
                 onClick={selectSourceType('board_page')}
               >
                 <TbDatabase style={{ fontSize: 24 }} />
-                CharmVerse database
+                KFMEDIA database
               </SourceType>
             )}
 
@@ -187,7 +187,7 @@ export function ViewSourceOptions(props: ViewSourceOptionsProps) {
                 onClick={isLoadingProposalSource ? undefined : proposalSourcePropertiesPopupState.open}
               >
                 <TaskOutlinedIcon fontSize='small' />
-                Charmverse Proposals
+                KFMEDIA Proposals
               </SourceType>
             )}
 
@@ -252,13 +252,11 @@ export function ViewSourceOptions(props: ViewSourceOptionsProps) {
         )}
         {formStep === 'configure_source' && sourceType === 'board_page' && (
           <>
-            <LinkCharmVerseDatabase
+            <LinkKFMEDIADatabase
               onSelectLinkedDatabase={onSelectLinkedDatabase}
               currentSourceDatabaseId={activeView?.fields.linkedSourceId}
             />
-            {allowedSourceOptions.includes('new') && (
-              <NewCharmVerseDatabase onCreateDatabase={onCreateDatabase as any} />
-            )}
+            {allowedSourceOptions.includes('new') && <NewKFMEDIADatabase onCreateDatabase={onCreateDatabase as any} />}
           </>
         )}
         {formStep === 'configure_source' && sourceType === 'google_form' && (

@@ -1,13 +1,13 @@
 import env from '@beam-australia/react-env';
-import type { SpaceSubscriptionTier } from '@charmverse/core/prisma';
 import type { EvmTransaction } from '@decent.xyz/box-common';
 import { BoxHooksContextProvider } from '@decent.xyz/box-hooks';
+import type { SpaceSubscriptionTier } from '@KFMEDIA/core/prisma';
 import { Launch as LaunchIcon } from '@mui/icons-material';
 import { Alert, Box, capitalize, Card, Divider, Link, Stack, TextField, Tooltip, Typography } from '@mui/material';
 import { log } from '@packages/core/log';
 import { calculateSubscriptionCost } from '@packages/subscriptions/calculateSubscriptionCost';
 import type { UpgradableTier } from '@packages/subscriptions/constants';
-import { charmVerseBankAddress, uniswapSwapUrl } from '@packages/subscriptions/constants';
+import { KFMEDIABankAddress, uniswapSwapUrl } from '@packages/subscriptions/constants';
 import { shortenHex } from '@packages/utils/blockchain';
 import Image from 'next/image';
 import { useMemo, useState } from 'react';
@@ -92,7 +92,7 @@ export function UpgradeSubscriptionModal({
 
   const { decentSdkError, decentTransactionInfo } = useDecentV4Transaction({
     address: address as Address,
-    receiverAddress: charmVerseBankAddress,
+    receiverAddress: KFMEDIABankAddress,
     sourceChainId: selectedPaymentOption.chainId,
     sourceToken: selectedPaymentOption.address,
     enabled: !!(selectedPaymentOption.currency !== 'DEV' && selectedTokenBalance),

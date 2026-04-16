@@ -1,8 +1,10 @@
-import type { Post, PostCategory } from '@charmverse/core/prisma';
+import type { Post, PostCategory } from '@KFMEDIA/core/prisma';
 import MessageOutlinedIcon from '@mui/icons-material/MessageOutlined';
 import OpenInFullIcon from '@mui/icons-material/OpenInFull';
 import { Box, Card, DialogContent, Stack, Typography } from '@mui/material';
 import MuiDialog from '@mui/material/Dialog';
+import type { PostWithVotes } from '@packages/lib/forums/posts/interfaces';
+import { setUrlWithoutRerender } from '@packages/lib/utils/browser';
 import { useRouter } from 'next/router';
 import { useEffect, useRef, useState } from 'react';
 import useSWR from 'swr';
@@ -17,8 +19,6 @@ import { FullPageActionsMenuButton } from 'components/common/PageActions/FullPag
 import { useCurrentSpace } from 'hooks/useCurrentSpace';
 import { useSmallScreen } from 'hooks/useMediaScreens';
 import { useUser } from 'hooks/useUser';
-import type { PostWithVotes } from '@packages/lib/forums/posts/interfaces';
-import { setUrlWithoutRerender } from '@packages/lib/utils/browser';
 
 import type { FormInputs } from '../interfaces';
 import { DraftPostList } from '../PostList/DraftPostList';

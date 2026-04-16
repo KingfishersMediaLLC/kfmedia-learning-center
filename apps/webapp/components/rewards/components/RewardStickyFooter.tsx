@@ -1,12 +1,12 @@
-import type { PageType } from '@charmverse/core/prisma';
+import type { PageType } from '@KFMEDIA/core/prisma';
 import { Box } from '@mui/material';
+import { getRewardErrors } from '@packages/lib/rewards/getRewardErrors';
+import type { RewardWithUsers } from '@packages/lib/rewards/interfaces';
 
 import { usePublishReward } from 'charmClient/hooks/rewards';
 import { StickyFooterContainer } from 'components/[pageId]/DocumentPage/components/StickyFooterContainer';
 import { Button } from 'components/common/Button';
 import { useSnackbar } from 'hooks/useSnackbar';
-import { getRewardErrors } from '@packages/lib/rewards/getRewardErrors';
-import type { RewardWithUsers } from '@packages/lib/rewards/interfaces';
 
 export function RewardStickyFooter({
   reward,

@@ -1,16 +1,15 @@
-import { prisma } from '@charmverse/core/prisma-client';
+import { prisma } from '@KFMEDIA/core/prisma-client';
 import { storeProjectMetadataAndPublishOptimismAttestation } from '@packages/connect-shared/lib/attestations/storeProjectMetadataAndPublishOptimismAttestation';
-import { trackUserAction } from '@packages/metrics/mixpanel/trackUserAction';
-import { InvalidInputError } from '@packages/utils/errors';
-import type { NextApiRequest, NextApiResponse } from 'next';
-import nc from 'next-connect';
-
 import { onError, onNoMatch, requireUser } from '@packages/lib/middleware';
 import { createProject } from '@packages/lib/optimism/createProject';
 import type { OptimismProjectAttestationContent } from '@packages/lib/optimism/getOpProjectsByFarcasterId';
 import { getOpProjectsByFarcasterId } from '@packages/lib/optimism/getOpProjectsByFarcasterId';
 import { generateOgImage } from '@packages/lib/projects/generateOgImage';
 import { withSessionRoute } from '@packages/lib/session/withSession';
+import { trackUserAction } from '@packages/metrics/mixpanel/trackUserAction';
+import { InvalidInputError } from '@packages/utils/errors';
+import type { NextApiRequest, NextApiResponse } from 'next';
+import nc from 'next-connect';
 
 const handler = nc<NextApiRequest, NextApiResponse>({ onError, onNoMatch });
 
@@ -63,7 +62,7 @@ async function createProjectController(
   }
 
   const newProject = await createProject({
-    source: 'charmverse',
+    source: 'KFMEDIA',
     userId,
     input: req.body
   });

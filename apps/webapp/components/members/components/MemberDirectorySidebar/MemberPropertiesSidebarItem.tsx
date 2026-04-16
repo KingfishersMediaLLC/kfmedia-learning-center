@@ -1,9 +1,12 @@
-import type { MemberProperty } from '@charmverse/core/prisma';
+import type { MemberProperty } from '@KFMEDIA/core/prisma';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 import EditIcon from '@mui/icons-material/Edit';
 import { Box, MenuItem, Stack, TextField, Tooltip } from '@mui/material';
+import { MEMBER_PROPERTY_CONFIG, PREMIUM_MEMBER_PROPERTIES } from '@packages/lib/members/constants';
+import type { MemberPropertyWithPermissions } from '@packages/lib/members/interfaces';
 import type { SelectOptionType } from '@packages/lib/proposals/forms/interfaces';
+import { isReturnKey, mergeRefs } from '@packages/lib/utils/react';
 import { usePopupState } from 'material-ui-popup-state/hooks';
 import { useEffect, useRef, useState } from 'react';
 import { useDrag, useDrop } from 'react-dnd';
@@ -18,9 +21,6 @@ import { MemberPropertySidebarDetails } from 'components/members/components/Memb
 import { useIsAdmin } from 'hooks/useIsAdmin';
 import { useIsFreeSpace } from 'hooks/useIsFreeSpace';
 import { useMemberProperties } from 'hooks/useMemberProperties';
-import { MEMBER_PROPERTY_CONFIG, PREMIUM_MEMBER_PROPERTIES } from '@packages/lib/members/constants';
-import type { MemberPropertyWithPermissions } from '@packages/lib/members/interfaces';
-import { isReturnKey, mergeRefs } from '@packages/lib/utils/react';
 
 import { MemberPropertyItem } from './MemberPropertyItem';
 

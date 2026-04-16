@@ -1,4 +1,4 @@
-import type { KycOption, PersonaUserKycStatus, SynapsUserKycStatus } from '@charmverse/core/prisma-client';
+import type { KycOption, PersonaUserKycStatus, SynapsUserKycStatus } from '@KFMEDIA/core/prisma-client';
 import { Collapse, Divider, Tooltip } from '@mui/material';
 import type { RewardFields } from '@packages/lib/rewards/blocks/interfaces';
 import { getCurrentRewardEvaluation } from '@packages/lib/rewards/getCurrentRewardEvaluation';
@@ -102,7 +102,7 @@ export function EvaluationsReview({
   const [tempRewardUpdates, setTempRewardUpdates] = useState<UpdateableRewardFields | null>(null);
   const { showMessage } = useSnackbar();
   const shareLink = getAbsolutePath(`/${page.path}`, currentSpace?.domain);
-  const shareText = `Check out ${page.title} from ${currentSpace?.domain} on CharmVerse: `;
+  const shareText = `Check out ${page.title} from ${currentSpace?.domain} on KFMEDIA: `;
 
   useEffect(() => {
     if (currentEvaluation && (application || isNewApplication)) {
@@ -235,7 +235,7 @@ export function EvaluationsReview({
                     },
                     {
                       type: 'text',
-                      text: `Check out ${page.title} from ${currentSpace?.domain} on CharmVerse: `
+                      text: `Check out ${page.title} from ${currentSpace?.domain} on KFMEDIA: `
                     },
                     {
                       type: 'text',
@@ -243,7 +243,7 @@ export function EvaluationsReview({
                         {
                           type: 'link',
                           attrs: {
-                            href: `https://app.charmverse.io/${currentSpace?.domain}/${page.path}`
+                            href: `https://app.KFMEDIA.io/${currentSpace?.domain}/${page.path}`
                           }
                         }
                       ],

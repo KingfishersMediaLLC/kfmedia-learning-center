@@ -1,12 +1,12 @@
-import type { ProposalEvaluationType } from '@charmverse/core/prisma-client';
+import type { ProposalEvaluationType } from '@KFMEDIA/core/prisma-client';
 import { Alert } from '@mui/material';
+import type { PopulatedEvaluation, ProposalWithUsersAndRubric } from '@packages/lib/proposals/interfaces';
+import { showRubricAnswersToAuthor } from '@packages/lib/proposals/showRubricAnswersToAuthor';
 import { useMemo, useState } from 'react';
 
 import MultiTabs from 'components/common/MultiTabs';
 import { useIsAdmin } from 'hooks/useIsAdmin';
 import { useUser } from 'hooks/useUser';
-import type { PopulatedEvaluation, ProposalWithUsersAndRubric } from '@packages/lib/proposals/interfaces';
-import { showRubricAnswersToAuthor } from '@packages/lib/proposals/showRubricAnswersToAuthor';
 
 import { RubricAnswersForm } from './components/RubricAnswersForm';
 import { RubricDecision } from './components/RubricDecision';

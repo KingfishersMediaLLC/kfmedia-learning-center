@@ -1,5 +1,5 @@
-import type { Space } from '@charmverse/core/prisma';
 import { yupResolver } from '@hookform/resolvers/yup';
+import type { Space } from '@KFMEDIA/core/prisma';
 import LaunchIcon from '@mui/icons-material/LaunchOutlined';
 import { Alert, FormControlLabel, FormGroup, Grid, InputLabel, Stack, Switch, TextField } from '@mui/material';
 import Typography from '@mui/material/Typography';
@@ -155,7 +155,7 @@ export function ApiSettings({ space }: { space: Space }) {
       <br />
       <Typography variant='h6'>Webhook (beta)</Typography>
       <Typography>
-        Subscribe to user events in CharmVerse using webhooks. You must provide us with a http endpoint accepting POST
+        Subscribe to user events in KFMEDIA using webhooks. You must provide us with a http endpoint accepting POST
         requests which returns a 200 response upon reception of the event.
       </Typography>
       {spaceWebhook && events && (

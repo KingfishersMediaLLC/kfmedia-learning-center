@@ -1,4 +1,4 @@
-import type { Application } from '@charmverse/core/prisma';
+import type { Application } from '@KFMEDIA/core/prisma';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import type { AlertColor, ButtonProps } from '@mui/material';
 import { Divider, Menu, MenuItem, Tooltip } from '@mui/material';

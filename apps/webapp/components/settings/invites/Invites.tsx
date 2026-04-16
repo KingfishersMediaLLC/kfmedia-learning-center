@@ -1,4 +1,4 @@
-import type { Space } from '@charmverse/core/prisma';
+import type { Space } from '@KFMEDIA/core/prisma';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { usePopupState } from 'material-ui-popup-state/hooks';

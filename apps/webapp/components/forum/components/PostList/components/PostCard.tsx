@@ -1,4 +1,4 @@
-import type { PostCategory } from '@charmverse/core/prisma';
+import type { PostCategory } from '@KFMEDIA/core/prisma';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import ModeCommentOutlinedIcon from '@mui/icons-material/ModeCommentOutlined';
 import { Stack } from '@mui/material';
@@ -7,6 +7,10 @@ import Card from '@mui/material/Card';
 import CardActionArea from '@mui/material/CardActionArea';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
+import type { ForumPostMeta } from '@packages/lib/forums/posts/getPostMeta';
+import type { Member } from '@packages/lib/members/interfaces';
+import { setUrlWithoutRerender } from '@packages/lib/utils/browser';
+import { getRelativeTimeInThePast } from '@packages/lib/utils/dates';
 import { fancyTrim } from '@packages/utils/strings';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
@@ -16,10 +20,6 @@ import { CommentVote } from 'components/common/comments/CommentVote';
 import UserDisplay from 'components/common/UserDisplay';
 import { usePostDialog } from 'components/forum/components/PostDialog/hooks/usePostDialog';
 import { usePostPermissions } from 'hooks/usePostPermissions';
-import type { ForumPostMeta } from '@packages/lib/forums/posts/getPostMeta';
-import type { Member } from '@packages/lib/members/interfaces';
-import { setUrlWithoutRerender } from '@packages/lib/utils/browser';
-import { getRelativeTimeInThePast } from '@packages/lib/utils/dates';
 
 import { PostSummary } from './PostSummary';
 
