@@ -10,8 +10,7 @@ import UserDisplay from 'components/common/UserDisplay';
 import IdentityModal from 'components/settings/profile/components/IdentityModal';
 import { useBaseCurrentDomain } from 'hooks/useBaseCurrentDomain';
 import { useUser } from 'hooks/useUser';
-import darkLogoImage from 'public/images/KFMEDIA_logo_sm_black.png';
-import whiteLogoImage from 'public/images/KFMEDIA_logo_sm_white.png';
+import logoImage from 'public/images/kfmedia-learning-center-logo.png';
 
 const HeaderBox = styled('div')`
   margin: ${({ theme }) => theme.spacing(3)};
@@ -25,7 +24,7 @@ const HeaderBox = styled('div')`
 
 export function Header() {
   const theme = useTheme();
-  const logo = theme.palette.mode === 'dark' ? whiteLogoImage : darkLogoImage;
+  const logo = logoImage;
   const { customDomain, spaceFromPath } = useBaseCurrentDomain();
 
   return (
