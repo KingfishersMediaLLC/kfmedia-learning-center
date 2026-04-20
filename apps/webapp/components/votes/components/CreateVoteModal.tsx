@@ -1,4 +1,4 @@
-import { VoteType } from '@KFMEDIA/core/prisma';
+import { VoteType } from '@charmverse/core/prisma';
 import AddCircle from '@mui/icons-material/AddCircle';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 import {

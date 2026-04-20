@@ -1,4 +1,4 @@
-import type { UserGnosisSafe } from '@KFMEDIA/core/prisma';
+import type { UserGnosisSafe } from '@charmverse/core/prisma';
 import KeyIcon from '@mui/icons-material/Key';
 import VisibilityOffOutlinedIcon from '@mui/icons-material/VisibilityOffOutlined';
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';

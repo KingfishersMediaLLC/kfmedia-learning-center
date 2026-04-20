@@ -1,4 +1,4 @@
-import type { Page } from '@KFMEDIA/core/prisma';
+import type { Page } from '@charmverse/core/prisma';
 import Typography from '@mui/material/Typography';
 import { useTreeItemState } from '@mui/x-tree-view/TreeItem';
 import { formatViewTitle } from '@packages/databases/boardView';

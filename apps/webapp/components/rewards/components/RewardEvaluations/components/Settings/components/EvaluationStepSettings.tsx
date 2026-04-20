@@ -1,4 +1,4 @@
-import type { BountyStatus } from '@KFMEDIA/core/prisma-client';
+import type { BountyStatus } from '@charmverse/core/prisma-client';
 import type { RewardTemplate } from '@packages/lib/rewards/getRewardTemplate';
 import type { RewardEvaluation } from '@packages/lib/rewards/getRewardWorkflows';
 import type { UpdateableRewardFields } from '@packages/lib/rewards/updateRewardSettings';

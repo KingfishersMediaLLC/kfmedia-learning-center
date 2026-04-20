@@ -1,4 +1,4 @@
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import { storeProjectMetadataAndPublishOptimismAttestation } from '@packages/connect-shared/lib/attestations/storeProjectMetadataAndPublishOptimismAttestation';
 import { onError, onNoMatch, requireUser } from '@packages/lib/middleware';
 import { createProject } from '@packages/lib/optimism/createProject';

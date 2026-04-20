@@ -1,4 +1,4 @@
-import type { Transaction } from '@KFMEDIA/core/prisma';
+import type { Transaction } from '@charmverse/core/prisma';
 import { onError, onNoMatch, requireKeys, requireUser } from '@packages/lib/middleware';
 import { withSessionRoute } from '@packages/lib/session/withSession';
 import { createTransaction } from '@packages/lib/transactions/createTransaction';

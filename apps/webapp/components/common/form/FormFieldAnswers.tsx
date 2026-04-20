@@ -1,4 +1,4 @@
-import type { FormField } from '@KFMEDIA/core/prisma-client';
+import type { FormField } from '@charmverse/core/prisma-client';
 import { styled, Box, Chip, Stack } from '@mui/material';
 import type { PageContent } from '@packages/charmeditor/interfaces';
 import type { ProjectAndMembersFieldConfig } from '@packages/lib/projects/formField';

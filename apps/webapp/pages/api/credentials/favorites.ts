@@ -1,4 +1,4 @@
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import { InvalidInputError } from '@packages/core/errors';
 import { onError, onNoMatch, requireUser } from '@packages/lib/middleware';
 import { withSessionRoute } from '@packages/lib/session/withSession';

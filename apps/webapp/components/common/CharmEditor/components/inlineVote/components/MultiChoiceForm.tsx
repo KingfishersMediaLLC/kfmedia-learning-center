@@ -1,4 +1,4 @@
-import type { VoteOptions } from '@KFMEDIA/core/prisma-client';
+import type { VoteOptions } from '@charmverse/core/prisma-client';
 import { Box, Checkbox, Chip, FormControlLabel, FormGroup, Stack, Typography } from '@mui/material';
 import { percent } from '@packages/lib/utils/numbers';
 import millify from 'millify';

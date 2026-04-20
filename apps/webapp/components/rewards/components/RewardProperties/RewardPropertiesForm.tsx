@@ -1,4 +1,4 @@
-import type { BountyStatus, Prisma } from '@KFMEDIA/core/prisma-client';
+import type { BountyStatus, Prisma } from '@charmverse/core/prisma-client';
 import { KeyboardArrowDown } from '@mui/icons-material';
 import { Box, Collapse, Divider, IconButton, Stack, Typography } from '@mui/material';
 import { REWARD_PROPOSAL_LINK } from '@packages/lib/rewards/blocks/constants';

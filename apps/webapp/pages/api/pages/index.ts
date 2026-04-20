@@ -1,5 +1,5 @@
-import type { Page, Prisma } from '@KFMEDIA/core/prisma';
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import type { Page, Prisma } from '@charmverse/core/prisma';
+import { prisma } from '@charmverse/core/prisma-client';
 import { log } from '@packages/core/log';
 import { onError, onNoMatch, requireUser } from '@packages/lib/middleware';
 import { permissionsApiClient } from '@packages/lib/permissions/api/client';

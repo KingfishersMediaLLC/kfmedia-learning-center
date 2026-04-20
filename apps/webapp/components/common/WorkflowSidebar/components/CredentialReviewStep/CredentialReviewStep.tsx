@@ -1,4 +1,4 @@
-import type { CredentialTemplate } from '@KFMEDIA/core/prisma-client';
+import type { CredentialTemplate } from '@charmverse/core/prisma-client';
 import { Box, Stack } from '@mui/material';
 import type { EASAttestationFromApi } from '@packages/credentials/external/getOnchainCredentials';
 import dynamic from 'next/dynamic';

@@ -1,5 +1,5 @@
-import { ProposalSystemRole } from '@KFMEDIA/core/prisma';
-import { type BountyStatus } from '@KFMEDIA/core/prisma-client';
+import { ProposalSystemRole } from '@charmverse/core/prisma';
+import { type BountyStatus } from '@charmverse/core/prisma-client';
 import { Box, Collapse, Divider, Stack } from '@mui/material';
 import type { RewardPropertiesField } from '@packages/lib/rewards/blocks/interfaces';
 import type { RewardCreationData } from '@packages/lib/rewards/createReward';

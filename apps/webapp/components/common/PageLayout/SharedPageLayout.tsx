@@ -1,4 +1,4 @@
-import type { PageType } from '@KFMEDIA/core/prisma';
+import type { PageType } from '@charmverse/core/prisma';
 import ArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import { styled, Box } from '@mui/material';
 import Head from 'next/head';

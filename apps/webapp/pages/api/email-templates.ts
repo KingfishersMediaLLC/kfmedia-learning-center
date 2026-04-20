@@ -1,4 +1,4 @@
-import type { User } from '@KFMEDIA/core/prisma-client';
+import type { User } from '@charmverse/core/prisma-client';
 import { createDocumentWithText } from '@packages/charmeditor/constants';
 import { charmBlue as blueColor } from '@packages/config/colors';
 import * as emails from '@packages/lib/mailer/emails/emails';

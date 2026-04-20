@@ -1,4 +1,4 @@
-import type { IdentityType } from '@KFMEDIA/core/prisma';
+import type { IdentityType } from '@charmverse/core/prisma';
 import type { ListItemProps } from '@mui/material';
 import { Box, ListItem, ListItemIcon, ListItemText } from '@mui/material';
 import type { ReactNode } from 'react';

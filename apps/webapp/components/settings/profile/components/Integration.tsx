@@ -1,4 +1,4 @@
-import type { IdentityType } from '@KFMEDIA/core/prisma';
+import type { IdentityType } from '@charmverse/core/prisma';
 import CheckIcon from '@mui/icons-material/Check';
 import MoreHoriz from '@mui/icons-material/MoreHoriz';
 import { styled, Box, Chip, Divider, IconButton, Menu, Stack, Tooltip, Typography } from '@mui/material';

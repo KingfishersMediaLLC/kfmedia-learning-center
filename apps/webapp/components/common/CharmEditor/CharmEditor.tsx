@@ -1,4 +1,4 @@
-import type { PageType } from '@KFMEDIA/core/prisma';
+import type { PageType } from '@charmverse/core/prisma';
 import { styled, Box, Divider } from '@mui/material';
 import { specRegistry } from '@packages/bangleeditor/specRegistry';
 import type { CryptoCurrency, FiatCurrency } from '@packages/blockchain/connectors/chains';

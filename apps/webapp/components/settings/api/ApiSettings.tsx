@@ -1,5 +1,5 @@
+import type { Space } from '@charmverse/core/prisma';
 import { yupResolver } from '@hookform/resolvers/yup';
-import type { Space } from '@KFMEDIA/core/prisma';
 import LaunchIcon from '@mui/icons-material/LaunchOutlined';
 import { Alert, FormControlLabel, FormGroup, Grid, InputLabel, Stack, Switch, TextField } from '@mui/material';
 import Typography from '@mui/material/Typography';

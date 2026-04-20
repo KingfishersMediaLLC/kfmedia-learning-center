@@ -1,4 +1,4 @@
-import type { FormFieldType } from '@KFMEDIA/core/prisma-client';
+import type { FormFieldType } from '@charmverse/core/prisma-client';
 import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';

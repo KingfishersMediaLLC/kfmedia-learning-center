@@ -1,4 +1,4 @@
-import type { PageType } from '@KFMEDIA/core/prisma-client';
+import type { PageType } from '@charmverse/core/prisma-client';
 import Box from '@mui/material/Box';
 import type { AssignedPagePermission } from '@packages/core/permissions';
 import { useState } from 'react';

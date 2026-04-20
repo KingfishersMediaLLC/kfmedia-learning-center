@@ -1,4 +1,4 @@
-import type { UserWallet } from '@KFMEDIA/core/prisma';
+import type { UserWallet } from '@charmverse/core/prisma';
 import { onError, onNoMatch, requireKeys, requireUser } from '@packages/lib/middleware';
 import { withSessionRoute } from '@packages/lib/session/withSession';
 import { updateTrackUserProfile } from '@packages/metrics/mixpanel/updateTrackUserProfile';

@@ -1,4 +1,4 @@
-import { type FormFieldType } from '@KFMEDIA/core/prisma-client';
+import { type FormFieldType } from '@charmverse/core/prisma-client';
 import { Edit, EditOff, MoreHoriz, Close as CloseIcon } from '@mui/icons-material';
 import ContentCopyOutlinedIcon from '@mui/icons-material/ContentCopyOutlined';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
@@ -28,7 +28,7 @@ import { useEffect, useMemo, useRef } from 'react';
 import { useDrag, useDrop } from 'react-dnd';
 
 import { useCurrentSpace } from 'hooks/useCurrentSpace';
-import { useIsKFMEDIASpace } from 'hooks/useIsKFMEDIASpace';
+import { useIsCharmverseSpace } from 'hooks/useIsCharmverseSpace';
 
 import { CharmEditor } from '../CharmEditor';
 import PopperPopup from '../PopperPopup';
@@ -100,7 +100,7 @@ function ExpandedFormField({
       titleTextFieldRef.current.querySelector('input')?.focus();
     }
   }, [titleTextFieldRef]);
-  const isKFMEDIASpace = useIsKFMEDIASpace();
+  const isCharmverseSpace = useIsCharmverseSpace();
   const { space } = useCurrentSpace();
 
   const formFieldType = formField.type;
@@ -116,7 +116,7 @@ function ExpandedFormField({
     }
 
     return formFieldTypes.filter((_formFieldType) => {
-      if (_formFieldType === 'optimism_project_profile' && space?.domain !== 'op-grants' && !isKFMEDIASpace) {
+      if (_formFieldType === 'optimism_project_profile' && space?.domain !== 'op-grants' && !isCharmverseSpace) {
         return false;
       }
       const nonDuplicateFieldType = nonDuplicateFieldTypes.includes(_formFieldType);
@@ -126,7 +126,7 @@ function ExpandedFormField({
 
       return true;
     });
-  }, [formFieldTypeFrequencyCount, isKFMEDIASpace, formFieldType, !!space?.domain]);
+  }, [formFieldTypeFrequencyCount, isCharmverseSpace, formFieldType, !!space?.domain]);
 
   return (
     <>

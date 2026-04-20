@@ -1,4 +1,4 @@
-import type { PageType } from '@KFMEDIA/core/prisma-client';
+import type { PageType } from '@charmverse/core/prisma-client';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 import UndoIcon from '@mui/icons-material/Undo';
 import UploadFileIcon from '@mui/icons-material/UploadFile';

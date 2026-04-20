@@ -2,7 +2,7 @@ import type {
   DraftProposalRubricCriteriaAnswer,
   ProposalRubricCriteria,
   ProposalRubricCriteriaAnswer
-} from '@KFMEDIA/core/prisma-client';
+} from '@charmverse/core/prisma-client';
 import { DeleteOutlined } from '@mui/icons-material';
 import {
   styled,

@@ -1,4 +1,4 @@
-import { prisma, type Application } from '@KFMEDIA/core/prisma-client';
+import { prisma, type Application } from '@charmverse/core/prisma-client';
 import { findSpaceIssuableRewardCredentials } from '@packages/credentials/findIssuableRewardCredentials';
 import { getProposalOrApplicationCredentials } from '@packages/credentials/getProposalOrApplicationCredentials';
 import { onError, onNoMatch, requireKeys, requireUser } from '@packages/lib/middleware';

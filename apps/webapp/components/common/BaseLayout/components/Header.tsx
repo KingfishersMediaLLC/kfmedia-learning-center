@@ -37,7 +37,9 @@ export function Header() {
           </Typography>
         </Box>
       ) : customDomain === null ? (
-        <Image src={logo} alt='KFMEDIA' />
+        <Typography sx={{ fontWeight: 700, fontSize: '20px', color: '#903235', fontFamily: 'Montserrat, sans-serif' }}>
+          KFMEDIA<sup style={{ fontSize: '9px' }}>℠</sup>
+        </Typography>
       ) : null}
       <UserMenu />
     </HeaderBox>

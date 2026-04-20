@@ -1,4 +1,4 @@
-import type { AttestationType, CredentialTemplate } from '@KFMEDIA/core/prisma-client';
+import type { AttestationType, CredentialTemplate } from '@charmverse/core/prisma-client';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Grid from '@mui/material/Grid';

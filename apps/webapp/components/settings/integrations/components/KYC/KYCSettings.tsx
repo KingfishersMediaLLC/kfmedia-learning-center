@@ -1,5 +1,5 @@
+import type { Space, KycOption } from '@charmverse/core/prisma-client';
 import { yupResolver } from '@hookform/resolvers/yup';
-import type { Space, KycOption } from '@KFMEDIA/core/prisma-client';
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import type { KycCredentials } from '@packages/lib/kyc/getKycCredentials';

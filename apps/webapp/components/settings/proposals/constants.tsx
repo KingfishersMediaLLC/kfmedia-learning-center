@@ -1,4 +1,4 @@
-import { ProposalEvaluationType } from '@KFMEDIA/core/prisma';
+import { ProposalEvaluationType } from '@charmverse/core/prisma';
 import { FeedbackOutlined, HowToVoteOutlined } from '@mui/icons-material';
 import EditNoteOutlinedIcon from '@mui/icons-material/EditNoteOutlined';
 import ModeEditOutlineOutlinedIcon from '@mui/icons-material/ModeEditOutlineOutlined';

@@ -1,4 +1,4 @@
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import type { PermissionCompute, PostPermissionFlags } from '@packages/core/permissions';
 import { PostNotFoundError } from '@packages/lib/forums/posts/errors';
 import { onError, onNoMatch } from '@packages/lib/middleware';

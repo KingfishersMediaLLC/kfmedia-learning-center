@@ -1,4 +1,4 @@
-import type { ApiPageKey } from '@KFMEDIA/core/prisma';
+import type { ApiPageKey } from '@charmverse/core/prisma';
 import AddCircleIcon from '@mui/icons-material/AddCircleOutline';
 import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
 import TaskOutlinedIcon from '@mui/icons-material/TaskOutlined';
@@ -26,8 +26,8 @@ import { useIsAdmin } from 'hooks/useIsAdmin';
 import { DatabaseSidebarHeader } from '../databaseSidebarHeader';
 
 import { GoogleFormsSource } from './components/GoogleForms/GoogleFormsSource';
-import { LinkKFMEDIADatabase } from './components/LinkKFMEDIADatabase';
-import { NewKFMEDIADatabase } from './components/NewKFMEDIADatabase';
+import { LinkCharmverseDatabase } from './components/LinkCharmverseDatabase';
+import { NewCharmverseDatabase } from './components/NewCharmverseDatabase';
 import { ProposalSourcePropertiesDialog } from './components/ProposalSourceProperties/ProposalSourcePropertiesDialog';
 import { SourceType } from './components/viewSourceType';
 import { useSourceOptions } from './useSourceOptions';
@@ -252,11 +252,13 @@ export function ViewSourceOptions(props: ViewSourceOptionsProps) {
         )}
         {formStep === 'configure_source' && sourceType === 'board_page' && (
           <>
-            <LinkKFMEDIADatabase
+            <LinkCharmverseDatabase
               onSelectLinkedDatabase={onSelectLinkedDatabase}
               currentSourceDatabaseId={activeView?.fields.linkedSourceId}
             />
-            {allowedSourceOptions.includes('new') && <NewKFMEDIADatabase onCreateDatabase={onCreateDatabase as any} />}
+            {allowedSourceOptions.includes('new') && (
+              <NewCharmverseDatabase onCreateDatabase={onCreateDatabase as any} />
+            )}
           </>
         )}
         {formStep === 'configure_source' && sourceType === 'google_form' && (

@@ -1,4 +1,4 @@
-import type { Post } from '@KFMEDIA/core/prisma';
+import type { Post } from '@charmverse/core/prisma';
 import type { ListDraftPostsRequest } from '@packages/lib/forums/posts/listDraftPosts';
 import { listDraftPosts } from '@packages/lib/forums/posts/listDraftPosts';
 import { onError, onNoMatch, requireKeys, requireUser } from '@packages/lib/middleware';

@@ -1,4 +1,4 @@
-import type { ProposalEvaluationResult, ProposalSystemRole } from '@KFMEDIA/core/prisma';
+import type { ProposalEvaluationResult, ProposalSystemRole } from '@charmverse/core/prisma';
 import type { IPropertyTemplate, PropertyType } from '@packages/databases/board';
 import type { ProposalEvaluationStep } from '@packages/lib/proposals/interfaces';
 import { isTruthy } from '@packages/utils/types';

@@ -1,4 +1,4 @@
-import type { PageType } from '@KFMEDIA/core/prisma-client';
+import type { PageType } from '@charmverse/core/prisma-client';
 import type { PageContent } from '@packages/charmeditor/interfaces';
 import { useCallback, useEffect, useState } from 'react';
 

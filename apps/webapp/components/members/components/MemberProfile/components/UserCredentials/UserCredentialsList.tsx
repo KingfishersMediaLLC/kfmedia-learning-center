@@ -8,7 +8,7 @@ import type { DraggableListItemProps } from 'components/common/DraggableListItem
 import { DraggableListItem } from 'components/common/DraggableListItem';
 import LoadingComponent from 'components/common/LoadingComponent';
 import { useFavoriteCredentials } from 'hooks/useFavoriteCredentials';
-import { useIsKFMEDIASpace } from 'hooks/useIsKFMEDIASpace';
+import { useIsCharmverseSpace } from 'hooks/useIsCharmverseSpace';
 
 import type { UserCredentialRowProps } from './UserCredentialRow';
 import { UserCredentialRow } from './UserCredentialRow';
@@ -105,7 +105,7 @@ export function UserAllCredentialsList({
 }
 
 export function UserCredentialsList({ userId, readOnly = false }: { readOnly?: boolean; userId: string }) {
-  const includeTestnets = useIsKFMEDIASpace();
+  const includeTestnets = useIsCharmverseSpace();
 
   const { data: userCredentials, error, isLoading } = useGetUserCredentials({ userId, includeTestnets });
   const favoriteCredentials = userCredentials

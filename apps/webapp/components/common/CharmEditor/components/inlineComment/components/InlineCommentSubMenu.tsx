@@ -1,4 +1,4 @@
-import type { PageType } from '@KFMEDIA/core/prisma-client';
+import type { PageType } from '@charmverse/core/prisma-client';
 import { styled, Paper } from '@mui/material';
 import type { PluginKey } from 'prosemirror-state';
 import { TextSelection } from 'prosemirror-state';

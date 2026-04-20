@@ -1,4 +1,4 @@
-import type { Space } from '@KFMEDIA/core/prisma';
+import type { Space } from '@charmverse/core/prisma';
 import CheckCircleOutlineOutlinedIcon from '@mui/icons-material/CheckCircleOutlineOutlined';
 import ErrorOutlineOutlinedIcon from '@mui/icons-material/ErrorOutlineOutlined';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';

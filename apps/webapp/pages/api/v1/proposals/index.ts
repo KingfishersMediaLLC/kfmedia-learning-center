@@ -1,5 +1,5 @@
-import type { ProposalEvaluationType, ProposalStatus } from '@KFMEDIA/core/prisma';
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import type { ProposalEvaluationType, ProposalStatus } from '@charmverse/core/prisma';
+import { prisma } from '@charmverse/core/prisma-client';
 import { generateMarkdown } from '@packages/bangleeditor/markdown/generateMarkdown';
 import { getCurrentEvaluation } from '@packages/core/proposals';
 import type { ProposalEvaluationResultExtended } from '@packages/lib/proposals/interfaces';

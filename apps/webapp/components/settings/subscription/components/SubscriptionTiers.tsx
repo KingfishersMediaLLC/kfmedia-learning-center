@@ -1,4 +1,4 @@
-import type { SpaceSubscriptionTier } from '@KFMEDIA/core/prisma';
+import type { SpaceSubscriptionTier } from '@charmverse/core/prisma';
 import CheckIcon from '@mui/icons-material/Check';
 import { Box, Chip, Divider, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from '@mui/material';
 import type { UpgradableTier } from '@packages/subscriptions/constants';

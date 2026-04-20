@@ -1,4 +1,4 @@
-import type { PageType } from '@KFMEDIA/core/prisma-client';
+import type { PageType } from '@charmverse/core/prisma-client';
 import CircleIcon from '@mui/icons-material/Circle';
 import { styled } from '@mui/material';
 import Alert from '@mui/material/Alert';

@@ -1,4 +1,4 @@
-import type { PaymentMethod } from '@KFMEDIA/core/prisma';
+import type { PaymentMethod } from '@charmverse/core/prisma';
 import AddIcon from '@mui/icons-material/Add';
 import type { AutocompleteProps, SxProps, Theme } from '@mui/material';
 import { Autocomplete, Box, MenuItem, ListItemText, ListItemIcon, Stack, TextField, Typography } from '@mui/material';

@@ -1,4 +1,4 @@
-import type { PagePermissionLevel } from '@KFMEDIA/core/prisma';
+import type { PagePermissionLevel } from '@charmverse/core/prisma';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { Box, FormControlLabel, Menu, MenuItem, Switch, Typography } from '@mui/material';
 import { pagePermissionLevels } from '@packages/lib/permissions/pages/labels';

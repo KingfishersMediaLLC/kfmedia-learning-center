@@ -1,4 +1,4 @@
-import type { CredentialEventType } from '@KFMEDIA/core/prisma';
+import type { CredentialEventType } from '@charmverse/core/prisma';
 import { Box, FormControlLabel, Switch } from '@mui/material';
 import { credentialEventLabels } from '@packages/credentials/constants';
 import type { FeatureTitleVariation } from '@packages/features/getFeatureTitle';

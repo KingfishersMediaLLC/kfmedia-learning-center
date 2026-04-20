@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-shadow */
 /* eslint-disable max-lines */
 
-import type { Page } from '@KFMEDIA/core/prisma';
+import type { Page } from '@charmverse/core/prisma';
 import CallMadeIcon from '@mui/icons-material/CallMade';
 import LaunchIcon from '@mui/icons-material/LaunchOutlined';
 import { Box, Link, Typography } from '@mui/material';

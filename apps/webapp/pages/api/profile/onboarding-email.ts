@@ -1,5 +1,5 @@
-import type { UserDetails } from '@KFMEDIA/core/prisma';
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import type { UserDetails } from '@charmverse/core/prisma';
+import { prisma } from '@charmverse/core/prisma-client';
 import { magicLinkEmailCookie } from '@packages/config/constants';
 import { log } from '@packages/core/log';
 import { sendMagicLink } from '@packages/lib/google/sendMagicLink';

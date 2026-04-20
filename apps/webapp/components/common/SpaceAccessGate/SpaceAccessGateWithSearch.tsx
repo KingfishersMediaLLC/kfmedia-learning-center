@@ -1,4 +1,4 @@
-import type { Space } from '@KFMEDIA/core/prisma-client';
+import type { Space } from '@charmverse/core/prisma-client';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import { styled, Autocomplete, IconButton, Popper, Stack, TextField, Typography, Box } from '@mui/material';
 import debounce from 'lodash/debounce';

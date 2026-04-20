@@ -1,4 +1,4 @@
-import type { Space } from '@KFMEDIA/core/prisma';
+import type { Space } from '@charmverse/core/prisma';
 import ArchiveOutlinedIcon from '@mui/icons-material/ArchiveOutlined';
 import DeleteOutlinedIcon from '@mui/icons-material/Close';
 import UnarchiveOutlinedIcon from '@mui/icons-material/UnarchiveOutlined';

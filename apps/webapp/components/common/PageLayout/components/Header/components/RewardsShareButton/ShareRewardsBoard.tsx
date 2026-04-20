@@ -1,4 +1,4 @@
-import type { SpacePermissionConfigurationMode } from '@KFMEDIA/core/prisma';
+import type { SpacePermissionConfigurationMode } from '@charmverse/core/prisma';
 import { styled } from '@mui/material';
 import Alert from '@mui/material/Alert';
 import Box from '@mui/material/Box';

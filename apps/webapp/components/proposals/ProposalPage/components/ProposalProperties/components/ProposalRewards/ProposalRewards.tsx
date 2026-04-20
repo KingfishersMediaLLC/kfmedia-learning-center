@@ -1,4 +1,4 @@
-import type { ProposalReviewer } from '@KFMEDIA/core/prisma';
+import type { ProposalReviewer } from '@charmverse/core/prisma';
 import { Delete, Edit } from '@mui/icons-material';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import { Box, Grid, IconButton, Stack, Tooltip, Typography } from '@mui/material';

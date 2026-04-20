@@ -1,5 +1,5 @@
-import type { TelegramUser } from '@KFMEDIA/core/prisma';
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import type { TelegramUser } from '@charmverse/core/prisma';
+import { prisma } from '@charmverse/core/prisma-client';
 import { log } from '@packages/core/log';
 import { onError, onNoMatch, requireUser } from '@packages/lib/middleware';
 import { withSessionRoute } from '@packages/lib/session/withSession';

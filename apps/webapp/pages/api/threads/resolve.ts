@@ -1,4 +1,4 @@
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import { onError, onNoMatch, requireKeys, requireUser } from '@packages/lib/middleware';
 import { permissionsApiClient } from '@packages/lib/permissions/api/client';
 import { withSessionRoute } from '@packages/lib/session/withSession';

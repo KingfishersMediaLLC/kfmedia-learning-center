@@ -1,4 +1,4 @@
-import type { KycOption, PersonaUserKycStatus, SynapsUserKycStatus } from '@KFMEDIA/core/prisma-client';
+import type { KycOption, PersonaUserKycStatus, SynapsUserKycStatus } from '@charmverse/core/prisma-client';
 import { Collapse, Divider, Tooltip } from '@mui/material';
 import type { RewardFields } from '@packages/lib/rewards/blocks/interfaces';
 import { getCurrentRewardEvaluation } from '@packages/lib/rewards/getCurrentRewardEvaluation';

@@ -1,4 +1,4 @@
-import type { Space } from '@KFMEDIA/core/prisma';
+import type { Space } from '@charmverse/core/prisma';
 import { onError, onNoMatch, requireSpaceMembership } from '@packages/lib/middleware';
 import { withSessionRoute } from '@packages/lib/session/withSession';
 import type { NextApiRequest, NextApiResponse } from 'next';

@@ -1,5 +1,5 @@
+import type { Space } from '@charmverse/core/prisma';
 import { yupResolver } from '@hookform/resolvers/yup';
-import type { Space } from '@KFMEDIA/core/prisma';
 import { Box, Stack, TextField } from '@mui/material';
 import InputAdornment from '@mui/material/InputAdornment';
 import { getSnapshotSpace } from '@packages/lib/snapshot/getSpace';

@@ -1,4 +1,4 @@
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import type { PagePermissionFlags, PermissionCompute } from '@packages/core/permissions';
 import { onError, onNoMatch, requireKeys } from '@packages/lib/middleware';
 import { permissionsApiClient } from '@packages/lib/permissions/api/client';

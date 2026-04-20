@@ -1,4 +1,4 @@
-import type { CredentialTemplate } from '@KFMEDIA/core/prisma-client';
+import type { CredentialTemplate } from '@charmverse/core/prisma-client';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import type { ApplicationWithTransactions } from '@packages/lib/rewards/interfaces';

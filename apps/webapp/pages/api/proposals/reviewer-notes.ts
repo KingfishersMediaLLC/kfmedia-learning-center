@@ -1,4 +1,4 @@
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import { requireUser, onError, onNoMatch } from '@packages/lib/middleware';
 import { permissionsApiClient } from '@packages/lib/permissions/api/client';
 import { getOrCreateReviewerNotes } from '@packages/lib/proposals/getOrCreateReviewerNotes';

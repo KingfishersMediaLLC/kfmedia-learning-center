@@ -1,4 +1,4 @@
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import { hasAccessToSpace } from '@packages/core/permissions';
 import { onError, onNoMatch, requireUser } from '@packages/lib/middleware';
 import { permissionsApiClient } from '@packages/lib/permissions/api/client';

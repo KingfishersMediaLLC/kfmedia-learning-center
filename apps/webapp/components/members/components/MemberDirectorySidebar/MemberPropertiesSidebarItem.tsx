@@ -1,4 +1,4 @@
-import type { MemberProperty } from '@KFMEDIA/core/prisma';
+import type { MemberProperty } from '@charmverse/core/prisma';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 import EditIcon from '@mui/icons-material/Edit';

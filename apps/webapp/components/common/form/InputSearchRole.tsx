@@ -1,4 +1,4 @@
-import type { Role } from '@KFMEDIA/core/prisma';
+import type { Role } from '@charmverse/core/prisma';
 import { Alert, Autocomplete, TextField } from '@mui/material';
 import type { ComponentProps } from 'react';
 

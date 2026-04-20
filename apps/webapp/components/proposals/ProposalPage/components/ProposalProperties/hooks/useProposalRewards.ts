@@ -1,4 +1,4 @@
-import type { ProposalReviewer } from '@KFMEDIA/core/prisma-client';
+import type { ProposalReviewer } from '@charmverse/core/prisma-client';
 import type { ProposalPendingReward } from '@packages/lib/proposals/interfaces';
 import { getRewardErrors } from '@packages/lib/rewards/getRewardErrors';
 import type { RewardTemplate } from '@packages/lib/rewards/getRewardTemplate';

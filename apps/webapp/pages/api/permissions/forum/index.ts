@@ -1,4 +1,4 @@
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import type { AssignedPostCategoryPermission } from '@packages/core/permissions';
 import { onError, onNoMatch, requireUser } from '@packages/lib/middleware';
 import { requirePaidPermissionsSubscription } from '@packages/lib/middleware/requirePaidPermissionsSubscription';

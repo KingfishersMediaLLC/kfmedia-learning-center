@@ -1,5 +1,5 @@
-import type { PaymentMethod } from '@KFMEDIA/core/prisma';
-import { VoteStrategy, VoteType } from '@KFMEDIA/core/prisma';
+import type { PaymentMethod } from '@charmverse/core/prisma';
+import { VoteStrategy, VoteType } from '@charmverse/core/prisma';
 import AddCircle from '@mui/icons-material/AddCircle';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 import {

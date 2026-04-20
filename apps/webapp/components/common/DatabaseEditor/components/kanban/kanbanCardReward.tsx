@@ -1,4 +1,4 @@
-import type { Bounty as Reward } from '@KFMEDIA/core/prisma';
+import type { Bounty as Reward } from '@charmverse/core/prisma';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 

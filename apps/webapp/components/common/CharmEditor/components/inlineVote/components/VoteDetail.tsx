@@ -1,5 +1,5 @@
-import type { UserVote } from '@KFMEDIA/core/prisma';
-import { VoteType } from '@KFMEDIA/core/prisma';
+import type { UserVote } from '@charmverse/core/prisma';
+import { VoteType } from '@charmverse/core/prisma';
 import HowToVoteOutlinedIcon from '@mui/icons-material/HowToVoteOutlined';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import {

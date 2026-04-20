@@ -1,4 +1,4 @@
-import type { ProposalRubricCriteriaAnswer } from '@KFMEDIA/core/prisma-client';
+import type { ProposalRubricCriteriaAnswer } from '@charmverse/core/prisma-client';
 import { DeleteOutlined as DeleteIcon, DragIndicator } from '@mui/icons-material';
 import { styled, Box, Grid, IconButton, TextField, Tooltip, Typography } from '@mui/material';
 import type { ProposalRubricCriteriaAnswerWithTypedResponse } from '@packages/lib/proposals/rubric/interfaces';

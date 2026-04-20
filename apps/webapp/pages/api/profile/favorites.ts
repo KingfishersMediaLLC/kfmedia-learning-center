@@ -1,5 +1,5 @@
-import type { FavoritePage } from '@KFMEDIA/core/prisma';
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import type { FavoritePage } from '@charmverse/core/prisma';
+import { prisma } from '@charmverse/core/prisma-client';
 import { onError, onNoMatch, requireUser } from '@packages/lib/middleware';
 import { withSessionRoute } from '@packages/lib/session/withSession';
 import { sessionUserRelations } from '@packages/profile/constants';

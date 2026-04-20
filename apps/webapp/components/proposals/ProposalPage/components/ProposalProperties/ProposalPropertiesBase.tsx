@@ -1,4 +1,4 @@
-import type { PageType, ProposalStatus } from '@KFMEDIA/core/prisma';
+import type { PageType, ProposalStatus } from '@charmverse/core/prisma';
 import { KeyboardArrowDown } from '@mui/icons-material';
 import { Box, Collapse, Divider, IconButton, Stack, Typography } from '@mui/material';
 import type { PageContent } from '@packages/charmeditor/interfaces';

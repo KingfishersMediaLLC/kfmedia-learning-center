@@ -1,5 +1,5 @@
+import type { PaymentMethod } from '@charmverse/core/prisma';
 import { yupResolver } from '@hookform/resolvers/yup';
-import type { PaymentMethod } from '@KFMEDIA/core/prisma';
 import Alert from '@mui/material/Alert';
 import Progress from '@mui/material/CircularProgress';
 import Grid from '@mui/material/Grid';

@@ -1,4 +1,4 @@
-import type { Space } from '@KFMEDIA/core/prisma';
+import type { Space } from '@charmverse/core/prisma';
 import { Box, Divider, Link, Stack, Typography } from '@mui/material';
 import type { DowngradeableTier, UpgradableTier } from '@packages/subscriptions/constants';
 import { downgradeableTiers } from '@packages/subscriptions/constants';

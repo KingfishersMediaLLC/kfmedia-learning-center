@@ -1,4 +1,4 @@
-import type { MemberProperty, MemberPropertyPermission } from '@KFMEDIA/core/prisma';
+import type { MemberProperty, MemberPropertyPermission } from '@charmverse/core/prisma';
 import AddOutlinedIcon from '@mui/icons-material/AddOutlined';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';

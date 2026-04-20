@@ -1,4 +1,4 @@
-import type { Application, UserGnosisSafe } from '@KFMEDIA/core/prisma-client';
+import type { Application, UserGnosisSafe } from '@charmverse/core/prisma-client';
 import { MenuItem } from '@mui/material';
 import { getChainById } from '@packages/blockchain/connectors/chains';
 import type { SystemError } from '@packages/core/errors';

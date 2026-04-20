@@ -1,4 +1,4 @@
-import type { ApplicationStatus } from '@KFMEDIA/core/prisma-client';
+import type { ApplicationStatus } from '@charmverse/core/prisma-client';
 import { ArrowBack } from '@mui/icons-material';
 import { styled, Box, Divider, FormLabel, Grid, Tab, Tabs } from '@mui/material';
 import type { PageContent } from '@packages/charmeditor/interfaces';

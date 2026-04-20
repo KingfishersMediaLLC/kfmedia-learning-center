@@ -1,4 +1,4 @@
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import type { DiscordGuildMember } from '@packages/lib/discord/assignRoles';
 import { assignRolesFromDiscord } from '@packages/lib/discord/assignRoles';
 import { getGuildMemberHandled } from '@packages/lib/discord/client/getGuildMember';

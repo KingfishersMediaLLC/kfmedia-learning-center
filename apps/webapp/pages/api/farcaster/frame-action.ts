@@ -1,4 +1,4 @@
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import { ExternalServiceError, InvalidInputError } from '@packages/core/errors';
 import { createFrameActionMessageWithSignerKey } from '@packages/lib/farcaster/createFrameActionMessageWithSignerKey';
 import { onError, onNoMatch } from '@packages/lib/middleware';

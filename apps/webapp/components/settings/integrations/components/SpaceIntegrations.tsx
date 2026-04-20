@@ -1,4 +1,4 @@
-import type { Space } from '@KFMEDIA/core/prisma-client';
+import type { Space } from '@charmverse/core/prisma-client';
 import { Stack } from '@mui/material';
 
 import { useIsAdmin } from 'hooks/useIsAdmin';

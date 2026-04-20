@@ -1,4 +1,4 @@
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import { onError, onNoMatch, requireUser } from '@packages/lib/middleware';
 import type { MarkNotifications } from '@packages/lib/notifications/markNotifications';
 import { markNotifications } from '@packages/lib/notifications/markNotifications';

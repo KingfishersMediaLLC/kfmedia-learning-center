@@ -1,4 +1,4 @@
-import type { PageType } from '@KFMEDIA/core/prisma';
+import type { PageType } from '@charmverse/core/prisma';
 import { Box } from '@mui/material';
 import type { ProjectAndMembersPayload, ProjectWithMembers } from '@packages/lib/projects/interfaces';
 import type { FormFieldValue, FormFieldInput, TypedFormField } from '@packages/lib/proposals/forms/interfaces';

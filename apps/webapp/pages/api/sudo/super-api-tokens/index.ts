@@ -1,4 +1,4 @@
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import { onError, onNoMatch, provisionSuperApiKey, requireKeys } from '@packages/lib/middleware';
 import { requireSudoApiKey } from '@packages/lib/middleware/requireSudoApiKey';
 import type { NextApiRequest, NextApiResponse } from 'next';

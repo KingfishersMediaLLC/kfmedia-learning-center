@@ -1,4 +1,4 @@
-import type { Space } from '@KFMEDIA/core/prisma-client';
+import type { Space } from '@charmverse/core/prisma-client';
 import { Alert } from '@mui/material';
 import { log } from '@packages/core/log';
 import type { FormFieldValue } from '@packages/lib/proposals/forms/interfaces';

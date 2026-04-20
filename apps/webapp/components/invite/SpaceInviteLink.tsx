@@ -1,4 +1,4 @@
-import type { InviteLink, Space } from '@KFMEDIA/core/prisma';
+import type { InviteLink, Space } from '@charmverse/core/prisma';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import Typography from '@mui/material/Typography';

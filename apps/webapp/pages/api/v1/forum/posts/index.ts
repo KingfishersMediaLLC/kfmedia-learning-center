@@ -1,4 +1,4 @@
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import { generateMarkdown } from '@packages/bangleeditor/markdown/generateMarkdown';
 import { parseMarkdown } from '@packages/bangleeditor/markdown/parseMarkdown';
 import { UnauthorisedActionError } from '@packages/core/errors';

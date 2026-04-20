@@ -1,4 +1,4 @@
-import type { ProposalEvaluationType, ProposalOperation, ProposalSystemRole } from '@KFMEDIA/core/prisma-client';
+import type { ProposalEvaluationType, ProposalOperation, ProposalSystemRole } from '@charmverse/core/prisma-client';
 
 export type EvaluationStepFormValues = {
   id: string;

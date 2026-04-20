@@ -1,4 +1,4 @@
-import type { IdentityType } from '@KFMEDIA/core/prisma';
+import type { IdentityType } from '@charmverse/core/prisma';
 import { Refresh as RefreshIcon } from '@mui/icons-material';
 import { Box, Chip, MenuItem, Tooltip, Typography } from '@mui/material';
 import IconButton from '@mui/material/IconButton';

@@ -1,4 +1,4 @@
-import type { ProposalReviewer } from '@KFMEDIA/core/prisma';
+import type { ProposalReviewer } from '@charmverse/core/prisma';
 import { DeleteOutlineOutlined as TrashIcon } from '@mui/icons-material';
 import { Box, ListItemIcon, ListItemText, MenuItem, Stack } from '@mui/material';
 import type { CardWithRelations } from '@packages/databases/card';

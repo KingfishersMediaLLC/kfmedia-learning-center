@@ -1,6 +1,6 @@
 import { Buffer } from 'node:buffer';
 
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import { InsecureOperationError, DataNotFoundError } from '@packages/core/errors';
 import { log } from '@packages/core/log';
 import type { PersonaEventData } from '@packages/lib/kyc/persona/interfaces';

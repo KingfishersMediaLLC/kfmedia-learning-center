@@ -1,4 +1,4 @@
-import type { SpaceSubscriptionTier } from '@KFMEDIA/core/prisma-client';
+import type { SpaceSubscriptionTier } from '@charmverse/core/prisma-client';
 import { Edit as EditIcon } from '@mui/icons-material';
 import {
   Box,

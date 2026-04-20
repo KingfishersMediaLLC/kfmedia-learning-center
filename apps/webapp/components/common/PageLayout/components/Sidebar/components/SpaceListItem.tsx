@@ -1,4 +1,4 @@
-import type { Space } from '@KFMEDIA/core/prisma';
+import type { Space } from '@charmverse/core/prisma';
 import { Badge } from '@mui/material';
 import type { MenuItemProps } from '@mui/material/MenuItem';
 import MenuItem from '@mui/material/MenuItem';

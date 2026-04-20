@@ -1,4 +1,4 @@
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import { invalidateCredential } from '@packages/lib/google/authorization/credentials';
 import { syncFormResponses } from '@packages/lib/google/forms/syncFormResponses';
 import { onError, onNoMatch, requireUser } from '@packages/lib/middleware';

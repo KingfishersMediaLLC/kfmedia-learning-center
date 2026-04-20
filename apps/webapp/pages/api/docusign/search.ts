@@ -1,4 +1,4 @@
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import type { DocusignEnvelopeLite, DocusignSearchParams } from '@packages/lib/docusign/api';
 import { searchDocusignDocs } from '@packages/lib/docusign/api';
 import { onError, onNoMatch, requireKeys, requireUser } from '@packages/lib/middleware';

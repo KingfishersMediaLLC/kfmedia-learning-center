@@ -6,7 +6,7 @@ export type NewDatabaseSourceProps = {
   onCreateDatabase: () => Promise<BoardView>;
 };
 
-export function NewKFMEDIADatabase({ onCreateDatabase }: NewDatabaseSourceProps) {
+export function NewCharmverseDatabase({ onCreateDatabase }: NewDatabaseSourceProps) {
   return (
     <MenuItem onClick={() => onCreateDatabase()}>
       <ListItemIcon>

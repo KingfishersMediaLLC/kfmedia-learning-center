@@ -1,4 +1,4 @@
-import type { MemberProperty } from '@KFMEDIA/core/prisma-client';
+import type { MemberProperty } from '@charmverse/core/prisma-client';
 import EditIcon from '@mui/icons-material/Edit';
 import {
   styled,

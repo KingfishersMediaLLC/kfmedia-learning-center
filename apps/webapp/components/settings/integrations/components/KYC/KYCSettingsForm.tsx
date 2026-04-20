@@ -1,4 +1,4 @@
-import type { KycOption } from '@KFMEDIA/core/prisma-client';
+import type { KycOption } from '@charmverse/core/prisma-client';
 import Box from '@mui/material/Box';
 import FormHelperText from '@mui/material/FormHelperText';
 import MenuItem from '@mui/material/MenuItem';

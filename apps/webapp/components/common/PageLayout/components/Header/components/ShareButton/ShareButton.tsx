@@ -1,4 +1,4 @@
-import type { PageType } from '@KFMEDIA/core/prisma-client';
+import type { PageType } from '@charmverse/core/prisma-client';
 import { IosShare } from '@mui/icons-material';
 import type { Theme } from '@mui/material';
 import { IconButton, Popover, Tooltip, useMediaQuery } from '@mui/material';

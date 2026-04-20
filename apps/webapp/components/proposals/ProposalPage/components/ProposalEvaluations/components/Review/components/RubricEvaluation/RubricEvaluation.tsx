@@ -1,4 +1,4 @@
-import type { ProposalEvaluationType } from '@KFMEDIA/core/prisma-client';
+import type { ProposalEvaluationType } from '@charmverse/core/prisma-client';
 import { Alert } from '@mui/material';
 import type { PopulatedEvaluation, ProposalWithUsersAndRubric } from '@packages/lib/proposals/interfaces';
 import { showRubricAnswersToAuthor } from '@packages/lib/proposals/showRubricAnswersToAuthor';

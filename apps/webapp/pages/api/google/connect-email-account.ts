@@ -1,4 +1,4 @@
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import { firebaseApp } from '@packages/lib/google/firebaseApp';
 import type { LoginWithGoogleRequest } from '@packages/lib/google/loginWithGoogle';
 import { checkUserSpaceBanStatus } from '@packages/lib/members/checkUserSpaceBanStatus';

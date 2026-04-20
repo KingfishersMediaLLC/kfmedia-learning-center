@@ -1,4 +1,4 @@
-import type { PostCategory } from '@KFMEDIA/core/prisma';
+import type { PostCategory } from '@charmverse/core/prisma';
 import SearchIcon from '@mui/icons-material/Search';
 import Box from '@mui/material/Box';
 import InputAdornment from '@mui/material/InputAdornment';

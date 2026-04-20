@@ -1,5 +1,5 @@
-import type { ApiPageKey, ApiPageKeyType } from '@KFMEDIA/core/prisma';
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import type { ApiPageKey, ApiPageKeyType } from '@charmverse/core/prisma';
+import { prisma } from '@charmverse/core/prisma-client';
 import { onError, onNoMatch, requireKeys, requireUser } from '@packages/lib/middleware';
 import { permissionsApiClient } from '@packages/lib/permissions/api/client';
 import { withSessionRoute } from '@packages/lib/session/withSession';

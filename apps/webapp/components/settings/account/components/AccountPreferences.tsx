@@ -1,5 +1,5 @@
+import type { User } from '@charmverse/core/prisma';
 import { yupResolver } from '@hookform/resolvers/yup';
-import type { User } from '@KFMEDIA/core/prisma';
 import LaunchIcon from '@mui/icons-material/Launch';
 import {
   useTheme,

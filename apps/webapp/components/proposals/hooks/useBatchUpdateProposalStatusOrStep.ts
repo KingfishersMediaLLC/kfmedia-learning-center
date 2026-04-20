@@ -1,4 +1,4 @@
-import type { ProposalEvaluationResult } from '@KFMEDIA/core/prisma-client';
+import type { ProposalEvaluationResult } from '@charmverse/core/prisma-client';
 import type { ProposalEvaluationStep } from '@packages/lib/proposals/interfaces';
 import { mutate } from 'swr';
 

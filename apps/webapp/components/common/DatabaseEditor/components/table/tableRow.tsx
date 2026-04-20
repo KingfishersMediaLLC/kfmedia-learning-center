@@ -1,4 +1,4 @@
-import type { ApplicationStatus } from '@KFMEDIA/core/prisma-client';
+import type { ApplicationStatus } from '@charmverse/core/prisma-client';
 import CollapseIcon from '@mui/icons-material/ArrowDropDown';
 import ExpandIcon from '@mui/icons-material/ArrowRight';
 import DragIndicatorIcon from '@mui/icons-material/DragIndicator';

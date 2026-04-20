@@ -1,4 +1,4 @@
-import type { AttestationType, CredentialEventType } from '@KFMEDIA/core/prisma-client';
+import type { AttestationType, CredentialEventType } from '@charmverse/core/prisma-client';
 
 import { useIsAdmin } from 'hooks/useIsAdmin';
 

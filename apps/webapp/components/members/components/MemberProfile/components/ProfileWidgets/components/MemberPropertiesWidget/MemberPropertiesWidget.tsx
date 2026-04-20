@@ -1,4 +1,4 @@
-import type { MemberPropertyType } from '@KFMEDIA/core/prisma-client';
+import type { MemberPropertyType } from '@charmverse/core/prisma-client';
 import { Edit as EditIcon } from '@mui/icons-material';
 import { IconButton, Tooltip } from '@mui/material';
 import type { MemberPropertyValuesBySpace } from '@packages/lib/members/interfaces';

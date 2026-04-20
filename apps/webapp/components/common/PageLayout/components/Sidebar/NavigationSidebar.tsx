@@ -1,4 +1,4 @@
-import type { Page } from '@KFMEDIA/core/prisma';
+import type { Page } from '@charmverse/core/prisma';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 import GroupAddOutlinedIcon from '@mui/icons-material/GroupAddOutlined';
 import QuestionMarkIcon from '@mui/icons-material/QuestionMark';

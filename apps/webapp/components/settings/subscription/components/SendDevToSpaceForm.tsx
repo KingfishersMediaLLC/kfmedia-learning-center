@@ -1,7 +1,7 @@
 import env from '@beam-australia/react-env';
+import type { SpaceSubscriptionTier } from '@charmverse/core/prisma';
 import type { EvmTransaction } from '@decent.xyz/box-common';
 import { BoxHooksContextProvider } from '@decent.xyz/box-hooks';
-import type { SpaceSubscriptionTier } from '@KFMEDIA/core/prisma';
 import { Launch as LaunchIcon } from '@mui/icons-material';
 import { Alert, Box, Divider, Link, Stack, TextField, Typography } from '@mui/material';
 import { log } from '@packages/core/log';

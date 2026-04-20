@@ -1,4 +1,4 @@
-import type { Prisma } from '@KFMEDIA/core/prisma';
+import type { Prisma } from '@charmverse/core/prisma';
 import { generateMarkdown } from '@packages/bangleeditor/markdown/generateMarkdown';
 import type { Member } from '@packages/lib/members/interfaces';
 

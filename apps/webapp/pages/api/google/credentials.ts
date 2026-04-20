@@ -1,4 +1,4 @@
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import { getCredentialsFromGoogleCode } from '@packages/lib/google/authorization/authClient';
 import {
   deleteCredential,

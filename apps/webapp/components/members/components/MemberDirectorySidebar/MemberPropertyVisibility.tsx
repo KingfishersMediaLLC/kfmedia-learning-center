@@ -1,4 +1,4 @@
-import type { VisibilityView } from '@KFMEDIA/core/prisma';
+import type { VisibilityView } from '@charmverse/core/prisma';
 import PersonIcon from '@mui/icons-material/Person';
 import { Stack, Tooltip, Typography } from '@mui/material';
 import { MEMBER_PROPERTY_CONFIG } from '@packages/lib/members/constants';

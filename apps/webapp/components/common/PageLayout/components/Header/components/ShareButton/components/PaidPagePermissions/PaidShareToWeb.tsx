@@ -1,4 +1,4 @@
-import type { PageType } from '@KFMEDIA/core/prisma';
+import type { PageType } from '@charmverse/core/prisma';
 import type { AssignedPagePermission } from '@packages/core/permissions';
 import { getCurrentEvaluation } from '@packages/core/proposals';
 import { capitalize } from '@packages/utils/strings';

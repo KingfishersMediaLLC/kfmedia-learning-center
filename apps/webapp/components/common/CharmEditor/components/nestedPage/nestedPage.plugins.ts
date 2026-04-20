@@ -1,4 +1,4 @@
-import type { PageType } from '@KFMEDIA/core/prisma-client';
+import type { PageType } from '@charmverse/core/prisma-client';
 import { TextSelection, Plugin } from 'prosemirror-state';
 
 import { NodeView } from 'components/common/CharmEditor/components/@bangle.dev/core/node-view';

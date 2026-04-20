@@ -1,4 +1,4 @@
-import { ProposalOperation, ProposalSystemRole } from '@KFMEDIA/core/prisma';
+import { ProposalOperation, ProposalSystemRole } from '@charmverse/core/prisma';
 import PersonIcon from '@mui/icons-material/Person';
 import { Box, Card, Stack, Tooltip, Typography } from '@mui/material';
 import type { WorkflowEvaluationJson } from '@packages/core/proposals';

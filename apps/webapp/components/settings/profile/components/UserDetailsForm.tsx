@@ -1,4 +1,4 @@
-import type { IdentityType, UserDetails as UserDetailsType } from '@KFMEDIA/core/prisma';
+import type { IdentityType, UserDetails as UserDetailsType } from '@charmverse/core/prisma';
 import EditIcon from '@mui/icons-material/Edit';
 import type { SxProps, Theme } from '@mui/material';
 import { styled, Box, Stack, Typography } from '@mui/material';

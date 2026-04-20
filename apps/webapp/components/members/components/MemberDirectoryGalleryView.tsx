@@ -1,4 +1,4 @@
-import type { MemberProperty, MemberPropertyType } from '@KFMEDIA/core/prisma';
+import type { MemberProperty, MemberPropertyType } from '@charmverse/core/prisma';
 import EditIcon from '@mui/icons-material/Edit';
 import { styled, Box, Card, Chip, Grid, IconButton, Stack, Tooltip, Typography } from '@mui/material';
 import type { FarcasterProfile } from '@packages/farcaster/getFarcasterProfile';

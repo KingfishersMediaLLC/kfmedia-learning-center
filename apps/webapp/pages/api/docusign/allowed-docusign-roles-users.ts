@@ -1,4 +1,4 @@
-import type { DocusignAllowedRoleOrUser } from '@KFMEDIA/core/prisma-client';
+import type { DocusignAllowedRoleOrUser } from '@charmverse/core/prisma-client';
 import {
   getAllowedDocusignRolesAndUsers,
   updateAllowedDocusignRolesAndUsers

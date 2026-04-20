@@ -1,4 +1,4 @@
-import type { ApplicationComment } from '@KFMEDIA/core/prisma';
+import type { ApplicationComment } from '@charmverse/core/prisma';
 import { Box, FormLabel, Stack } from '@mui/material';
 import { emptyDocument } from '@packages/charmeditor/constants';
 import type { CommentWithChildren } from '@packages/lib/comments';

@@ -1,4 +1,4 @@
-import type { Post, PostCategory } from '@KFMEDIA/core/prisma';
+import type { Post, PostCategory } from '@charmverse/core/prisma';
 import CommentIcon from '@mui/icons-material/Comment';
 import { Box, Chip, Divider, Stack, Typography } from '@mui/material';
 import type { PageContent } from '@packages/charmeditor/interfaces';

@@ -1,5 +1,5 @@
-import type { ApplicationStatus } from '@KFMEDIA/core/prisma-client';
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import type { ApplicationStatus } from '@charmverse/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 import { getMarkdownText } from 'lib/prosemirror/getMarkdownText';

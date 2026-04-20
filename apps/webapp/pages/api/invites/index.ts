@@ -1,4 +1,4 @@
-import type { InviteLink } from '@KFMEDIA/core/prisma';
+import type { InviteLink } from '@charmverse/core/prisma';
 import { createInviteLink } from '@packages/lib/invites/createInviteLink';
 import type { InviteLinkWithRoles } from '@packages/lib/invites/getSpaceInviteLinks';
 import { getSpaceInviteLinks } from '@packages/lib/invites/getSpaceInviteLinks';

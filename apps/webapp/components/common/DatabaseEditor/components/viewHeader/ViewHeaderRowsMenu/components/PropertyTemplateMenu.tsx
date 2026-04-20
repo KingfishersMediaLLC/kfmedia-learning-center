@@ -1,4 +1,4 @@
-import type { ProposalEvaluationResult } from '@KFMEDIA/core/prisma-client';
+import type { ProposalEvaluationResult } from '@charmverse/core/prisma-client';
 import { Box } from '@mui/material';
 import type { Board, IPropertyTemplate, PropertyType } from '@packages/databases/board';
 import type { Card, CardPropertyValue } from '@packages/databases/card';

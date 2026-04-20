@@ -1,4 +1,4 @@
-import type { PageType } from '@KFMEDIA/core/prisma';
+import type { PageType } from '@charmverse/core/prisma';
 import DeleteOutlineOutlinedIcon from '@mui/icons-material/DeleteOutlineOutlined';
 import MessageOutlinedIcon from '@mui/icons-material/MessageOutlined';
 import RateReviewOutlinedIcon from '@mui/icons-material/RateReviewOutlined';
@@ -195,7 +195,7 @@ export function DocumentPageActionList({
     onComplete();
   }
 
-  const KFMEDIAPage = members.find((member) => member.id === page.createdBy);
+  const CharmversePage = members.find((member) => member.id === page.createdBy);
 
   async function convertToProposal() {
     navigateToSpacePath(`/proposals/new`, { sourcePageId: page.id });
@@ -358,7 +358,7 @@ export function DocumentPageActionList({
           <RewardActions rewardId={basePageBounty.id} onClick={onComplete} />
         </>
       )}
-      {KFMEDIAPage && (
+      {CharmversePage && (
         <>
           <Divider />
           <DocumentHistory page={page} />

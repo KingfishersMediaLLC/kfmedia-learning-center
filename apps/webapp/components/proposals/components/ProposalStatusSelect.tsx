@@ -1,4 +1,4 @@
-import type { ProposalEvaluationResult } from '@KFMEDIA/core/prisma-client';
+import type { ProposalEvaluationResult } from '@charmverse/core/prisma-client';
 import type { IPropertyOption } from '@packages/databases/board';
 import {
   EVALUATION_STATUS_LABELS,

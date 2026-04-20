@@ -1,5 +1,5 @@
-import type { Prisma, Role, SpacePermission } from '@KFMEDIA/core/prisma';
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import type { Prisma, Role, SpacePermission } from '@charmverse/core/prisma';
+import { prisma } from '@charmverse/core/prisma-client';
 import { onError, onNoMatch, requireKeys, requireUser } from '@packages/lib/middleware';
 import { requirePaidPermissionsSubscription } from '@packages/lib/middleware/requirePaidPermissionsSubscription';
 import { requireSpaceMembership } from '@packages/lib/middleware/requireSpaceMembership';

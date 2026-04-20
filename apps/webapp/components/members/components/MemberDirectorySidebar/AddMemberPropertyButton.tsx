@@ -1,4 +1,4 @@
-import type { MemberPropertyType } from '@KFMEDIA/core/prisma';
+import type { MemberPropertyType } from '@charmverse/core/prisma';
 import AddIcon from '@mui/icons-material/Add';
 import { Button, Menu, MenuItem, Stack, TextField } from '@mui/material';
 import { MEMBER_PROPERTY_CONFIG } from '@packages/lib/members/constants';

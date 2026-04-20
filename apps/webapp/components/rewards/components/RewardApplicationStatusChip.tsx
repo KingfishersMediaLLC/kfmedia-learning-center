@@ -1,4 +1,4 @@
-import type { ApplicationStatus } from '@KFMEDIA/core/prisma';
+import type { ApplicationStatus } from '@charmverse/core/prisma';
 import AccessTimeOutlinedIcon from '@mui/icons-material/AccessTimeOutlined';
 import AssignmentIndIcon from '@mui/icons-material/AssignmentInd';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';

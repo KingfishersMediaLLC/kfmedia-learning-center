@@ -1,5 +1,5 @@
-import type { Space } from '@KFMEDIA/core/prisma';
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import type { Space } from '@charmverse/core/prisma';
+import { prisma } from '@charmverse/core/prisma-client';
 import { updateTokenGateDetails } from '@packages/lib/blockchain/updateTokenGateDetails';
 import { onError, onNoMatch, requireKeys, requireSpaceMembership } from '@packages/lib/middleware';
 import requireValidation from '@packages/lib/middleware/requireValidation';

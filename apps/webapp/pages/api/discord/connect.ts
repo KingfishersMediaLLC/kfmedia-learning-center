@@ -1,5 +1,5 @@
-import type { DiscordUser } from '@KFMEDIA/core/prisma';
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import type { DiscordUser } from '@charmverse/core/prisma';
+import { prisma } from '@charmverse/core/prisma-client';
 import { log } from '@packages/core/log';
 import { assignRolesFromDiscord } from '@packages/lib/discord/assignRoles';
 import type { DiscordAccount } from '@packages/lib/discord/client/getDiscordAccount';

@@ -1,5 +1,5 @@
 import { rafCommandExec } from '@bangle.dev/utils';
-import type { Page } from '@KFMEDIA/core/prisma';
+import type { Page } from '@charmverse/core/prisma';
 import { useCallback } from 'react';
 
 import { useEditorViewContext } from 'components/common/CharmEditor/components/@bangle.dev/react/hooks';

@@ -1,5 +1,5 @@
-import type { Application } from '@KFMEDIA/core/prisma';
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import type { Application } from '@charmverse/core/prisma';
+import { prisma } from '@charmverse/core/prisma-client';
 import { onError, onNoMatch, requireKeys, requireUser } from '@packages/lib/middleware';
 import { computeBountyPermissions } from '@packages/lib/permissions/bounties';
 import { markSubmissionAsPaid } from '@packages/lib/rewards/markSubmissionAsPaid';

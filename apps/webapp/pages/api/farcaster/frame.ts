@@ -1,4 +1,4 @@
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import * as http from '@packages/adapters/http';
 import { InvalidInputError } from '@packages/core/errors';
 import { onError, onNoMatch, requireKeys } from '@packages/lib/middleware';

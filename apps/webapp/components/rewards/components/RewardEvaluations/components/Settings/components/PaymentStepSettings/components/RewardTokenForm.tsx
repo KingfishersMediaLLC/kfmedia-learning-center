@@ -1,4 +1,4 @@
-import type { PaymentMethod } from '@KFMEDIA/core/prisma-client';
+import type { PaymentMethod } from '@charmverse/core/prisma-client';
 import { Box, Stack, TextField } from '@mui/material';
 import type { CryptoCurrency } from '@packages/blockchain/connectors/chains';
 import { getChainById } from '@packages/blockchain/connectors/chains';

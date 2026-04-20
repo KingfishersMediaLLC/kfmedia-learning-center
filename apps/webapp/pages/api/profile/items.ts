@@ -1,5 +1,5 @@
-import type { ProfileItem } from '@KFMEDIA/core/prisma';
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import type { ProfileItem } from '@charmverse/core/prisma';
+import { prisma } from '@charmverse/core/prisma-client';
 import { onError, onNoMatch, requireUser } from '@packages/lib/middleware';
 import { withSessionRoute } from '@packages/lib/session/withSession';
 import { UnauthorisedActionError } from '@packages/utils/errors';

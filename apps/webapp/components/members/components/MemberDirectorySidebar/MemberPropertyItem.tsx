@@ -1,4 +1,4 @@
-import type { MemberPropertyType } from '@KFMEDIA/core/prisma';
+import type { MemberPropertyType } from '@charmverse/core/prisma';
 import GithubIcon from '@mui/icons-material/GitHub';
 import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';

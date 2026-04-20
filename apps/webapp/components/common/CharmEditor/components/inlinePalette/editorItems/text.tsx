@@ -1,6 +1,6 @@
 import { Fragment, setBlockType, findWrapping } from '@bangle.dev/pm';
 import { rafCommandExec } from '@bangle.dev/utils';
-import type { PageType } from '@KFMEDIA/core/prisma';
+import type { PageType } from '@charmverse/core/prisma';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForwardIos';
 import ChatBubbleIcon from '@mui/icons-material/ChatBubble';
 import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';

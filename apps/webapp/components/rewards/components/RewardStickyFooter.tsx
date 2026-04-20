@@ -1,4 +1,4 @@
-import type { PageType } from '@KFMEDIA/core/prisma';
+import type { PageType } from '@charmverse/core/prisma';
 import { Box } from '@mui/material';
 import { getRewardErrors } from '@packages/lib/rewards/getRewardErrors';
 import type { RewardWithUsers } from '@packages/lib/rewards/interfaces';

@@ -1,4 +1,4 @@
-import type { PageType } from '@KFMEDIA/core/prisma';
+import type { PageType } from '@charmverse/core/prisma';
 import LockIcon from '@mui/icons-material/Lock';
 import { styled, Box, Typography, CircularProgress, Tooltip } from '@mui/material';
 import { useRouter } from 'next/router';

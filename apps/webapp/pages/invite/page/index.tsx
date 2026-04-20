@@ -1,4 +1,4 @@
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import { log } from '@packages/core/log';
 import { permissionsApiClient } from '@packages/lib/permissions/api/client';
 import { withSessionSsr } from '@packages/lib/session/withSession';

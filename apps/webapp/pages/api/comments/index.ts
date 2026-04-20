@@ -1,4 +1,4 @@
-import { prisma } from '@KFMEDIA/core/prisma-client';
+import { prisma } from '@charmverse/core/prisma-client';
 import { PageNotFoundError } from '@packages/core/errors';
 import type { CommentCreate } from '@packages/lib/comments';
 import { addComment } from '@packages/lib/comments';

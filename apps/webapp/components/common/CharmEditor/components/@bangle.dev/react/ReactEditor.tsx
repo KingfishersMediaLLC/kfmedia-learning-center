@@ -1,5 +1,5 @@
 import { objectUid } from '@bangle.dev/utils';
-import type { PageType } from '@KFMEDIA/core/prisma-client';
+import type { PageType } from '@charmverse/core/prisma-client';
 import { styled } from '@mui/material';
 import { className as editorClassName } from '@packages/charmeditor/ui';
 import { log } from '@packages/core/log';

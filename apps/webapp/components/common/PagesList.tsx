@@ -1,4 +1,4 @@
-import type { Page } from '@KFMEDIA/core/prisma';
+import type { Page } from '@charmverse/core/prisma';
 import { ListItemText, ListItemIcon, MenuItem, Typography } from '@mui/material';
 
 import type { PagePathType } from 'components/common/PageIcon';

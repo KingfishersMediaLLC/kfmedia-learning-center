@@ -1,4 +1,4 @@
-import type { User } from '@KFMEDIA/core/prisma';
+import type { User } from '@charmverse/core/prisma';
 import { useState } from 'react';
 
 import charmClient from 'charmClient';

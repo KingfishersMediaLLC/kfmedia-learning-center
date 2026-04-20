@@ -1,4 +1,4 @@
-import type { ProposalEvaluationType } from '@KFMEDIA/core/prisma-client';
+import type { ProposalEvaluationType } from '@charmverse/core/prisma-client';
 import { TextField, Box } from '@mui/material';
 import type { WorkflowEvaluationJson } from '@packages/core/proposals';
 import { customLabelEvaluationTypes } from '@packages/lib/proposals/getActionButtonLabels';

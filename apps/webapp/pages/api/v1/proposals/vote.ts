@@ -1,4 +1,4 @@
-import type { UserVote } from '@KFMEDIA/core/prisma';
+import type { UserVote } from '@charmverse/core/prisma';
 import { requireKeys } from '@packages/lib/middleware';
 import { withSessionRoute } from '@packages/lib/session/withSession';
 import type { NextApiRequest, NextApiResponse } from 'next';

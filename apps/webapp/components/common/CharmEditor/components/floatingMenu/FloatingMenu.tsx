@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unused-prop-types */
-import type { PageType } from '@KFMEDIA/core/prisma-client';
+import type { PageType } from '@charmverse/core/prisma-client';
 import type { PagePermissionFlags } from '@packages/core/permissions';
 import type { PluginKey } from 'prosemirror-state';
 import reactDOM from 'react-dom';

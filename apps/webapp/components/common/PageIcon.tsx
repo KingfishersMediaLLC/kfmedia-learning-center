@@ -1,4 +1,4 @@
-import type { Page } from '@KFMEDIA/core/prisma';
+import type { Page } from '@charmverse/core/prisma';
 import MembersIcon from '@mui/icons-material/AccountCircle';
 import FilledPageIcon from '@mui/icons-material/DescriptionOutlined';
 import EmptyPageIcon from '@mui/icons-material/InsertDriveFileOutlined';

@@ -1,5 +1,5 @@
+import type { UserDetails } from '@charmverse/core/prisma-client';
 import { yupResolver } from '@hookform/resolvers/yup';
-import type { UserDetails } from '@KFMEDIA/core/prisma-client';
 import { DEFAULT_MEMBER_PROPERTIES, NON_DEFAULT_MEMBER_PROPERTIES } from '@packages/lib/members/constants';
 import type { Social } from '@packages/lib/members/interfaces';
 import { hasPrimaryMemberIdentityAccess } from '@packages/subscriptions/featureRestrictions';
