@@ -9,9 +9,9 @@ import {
   backgroundDarkColorDarkMode,
   backgroundLightColor,
   backgroundLightColorDarkMode,
-  blueColor,
+  brandPrimary,
   colors,
-  darkBlueColor,
+  brandPrimaryDark,
   primaryTextColor,
   primaryTextColorDarkMode,
   secondaryTextColor,
@@ -170,7 +170,7 @@ export const createThemeLightSensitive = (mode: PaletteMode) => {
         main: '#5765f2'
       },
       primary: {
-        main: blueColor // '#010101',
+        main: brandPrimary
       },
       farcaster: {
         main: farcasterBrandColor,
@@ -178,7 +178,7 @@ export const createThemeLightSensitive = (mode: PaletteMode) => {
         dark: farcasterBrandColorDark
       },
       secondary: {
-        main: mode === 'dark' ? secondaryTextColorDarkMode : secondaryTextColor
+        main: '#E6A23A'
       },
       white: {
         main: '#eee'
@@ -428,9 +428,9 @@ export const createThemeLightSensitive = (mode: PaletteMode) => {
       MuiLink: {
         styleOverrides: {
           root: {
-            color: darkBlueColor,
+            color: brandPrimaryDark,
             '&:hover': {
-              color: darken(darkBlueColor, 0.2)
+              color: darken(brandPrimaryDark, 0.2)
             }
           }
         },

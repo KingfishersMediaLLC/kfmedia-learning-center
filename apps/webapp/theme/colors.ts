@@ -4,8 +4,8 @@ import { charmBlue } from '@packages/config/colors';
 export const blackColor = '#111';
 export const yellowColor = '#EAD637';
 
-export const blueColor = charmBlue;
-export const darkBlueColor = darken(blueColor, 0.1);
+export const brandPrimary = charmBlue;
+export const brandPrimaryDark = darken(brandPrimary, 0.1);
 export const whiteColor = '#fff';
 export const lightGreyColor = '#edf2f4';
 export const greyColor2 = '#aaa';
